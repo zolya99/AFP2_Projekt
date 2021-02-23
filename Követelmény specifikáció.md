@@ -8,6 +8,7 @@ Csapatunk elkötelezett az alkoholos italok fogyasztásának elősegítésében,
 A projekt célja az, hogy egy teljeskörűen működő italkereskedő weboldalt készítsünk, ahol nem csak az országban fellelhető alkoholmentes és alkoholos italok közül választhatnak vásárlóink,
 hanem exkluzív, csak más ország(ok)ban kapható italok népszerűvé tételében is segítsünk.
 #  4. Funkcionális specifikáció
+Több információt a Követelmény lista című fejezetben olvashatnak a funkcionális specifikációról, valamint a jelenlegi és az igényelt üzleti modell fejezetek tartalmaznak még néhány információt erről.
 #  5. Szabványok és jogok
 ## Alapvető követelmények:
 A weboldalnak a következő alapvető követelményeknek kell megfelelnie:
