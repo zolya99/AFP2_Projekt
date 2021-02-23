@@ -9,6 +9,29 @@ A projekt célja az, hogy egy teljeskörűen működő italkereskedő weboldalt 
 hanem exkluzív, csak más ország(ok)ban kapható italok népszerűvé tételében is segítsünk.
 #  4. Funkcionális specifikáció
 #  5. Szabványok és jogok
+## Alapvető követelmények:
+A weboldalnak a következő alapvető követelményeknek kell megfelelnie:
+
+- Könnyen érthetőnek és használhatónak kell lennie.
+- Logikus felépítsűnek kell lennie a felhasználók számára.
+- Használja az ipar legjobban bevált folyamatait.
+- Stílusok használata, ami átláthatóvá teszi az egyes oldalak részleteit, ezen belül:
+    - Hibaüzenetek megjelenítése jól látható helyen és stílusban
+    - Olyan panelek létrehozása, ami az alapvető felhasználók számára nem látható, kizárólag a weboldal üzemeltetői férnek hozzá.
+
+## Kompatibilis böngészők:
+
+- Google Chrome
+- Mozilla Firefox
+- Internet Explorer
+
+## Adatkezelési nyilatkozat:
+Az Adatkezelési ‌Nyilatkozat kialakítása során figyelembe vettük a vonatkozó hatályos jogszabályokat, illetve a fontosabb nemzetközi ajánlásokat. Ezekre megfelel az alábbi jogszabályoknak:
+
+- Információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény;
+- Az elektronikus ‌hírközlésről szóló 2003. évi C. törvény;
+- Az elektronikus kereskedelemről szóló 2001. évi CVIII. törvény előírásainak;
+- Az "Online Privacy Alliance" ajánlásainak.
 #  6. Jelenlegi üzleti modell
 Több-kevesebb idő és vesződség mellett veszélyeket és buktatókat is rejthet a szeszesital és egyébb termékek árusítása. Hogyan adjunk fel megfelelő hírdetéseket róla ezen belül mi szerepeljen a hirdetésben és milyen hibákat ne kövessünk el.
 Szeszesital árusítása során sosincs kifogyó kereslet, emellett még megfelelő árakkal pedig könnyen kilehet harcolni a magas igényt az italkereskedés után. Ezzel nem lesz gond, viszont nem árt a megfelelően kialakított kapcsolat a nagykereskedés és a saját italkereskedésünk között.
