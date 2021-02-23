@@ -54,5 +54,22 @@ Az Adatkezelési ‌Nyilatkozat kialakítása során figyelembe vettük a vonatk
 # 6. Igényelt üzleti folyamatok modellje
 
 # 7. Használati esetek
+## Felhasználó:
+- Tudnia kell regisztrálnia egy új fiókot
+- Tudnia kell bejelentkeznie a fiókjába
+- Tudnia kell kijelentkeznie a fiókjából
+- Látnia kell a főoldalt
+- Látnia kell a termékek különböző kategóriáit, illetve azok lista nézetét
+- Tudnia kell szűrni különböző kategóriák között
+- Tudnia kell megtekinteni egy terméket, annak árát és leírását
+- Tudnia kell hozzáadni a kiválasztott termék(ek)et a kosárhoz
+- Tudnia kell leadni a rendelését
+
+## Adminisztrátor:
+- Minden felhasználói jogosultsággal rendelkezik
+- Tudnia kell új terméket hozzáadni a már meglévők mellé
+- Tudnia kell a termék árát és leírását módosítani
+- Tudnia kell törölni terméket
+- Hozzáférése kell, hogy legyen és látnia az összes megrendelést a felhasználóktól
 
 # 8. Képernyő tervek
