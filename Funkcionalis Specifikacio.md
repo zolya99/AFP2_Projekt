@@ -54,3 +54,5 @@ Az Adatkezelési ‌Nyilatkozat kialakítása során figyelembe vettük a vonatk
 # 6. Igényelt üzleti folyamatok modellje
 
 # 7. Használati esetek
+
+# 8. Képernyő tervek
