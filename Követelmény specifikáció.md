@@ -30,3 +30,8 @@ Italkereskedés esetén mégis mi nyújthat biztonságot? Az első szó, ami esz
 |Oldalak|P6|Profil|A felhasználó profiljának az adatait tartalmazza|
 |Oldalak|P7|Profil adatainak módosítása|A felhasználó tudja szerkeszteni az adatait|
 #  9. Fogalomszótár
+- A megnevezés oszlopban láthatóak a funkciók nevei.
+- A cím értelemszerűen a címüket írja le.
+- A leírás oszlopban megtalálhatóak kifejtve a funkciókhoz tartozó leírás.
+- Order Page a felhasználói adatok felvételére szolgáló felület.
+- Az termékek oszlopában pedig a termékek adatlapja nyílik meg.
