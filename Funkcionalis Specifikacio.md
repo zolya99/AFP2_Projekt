@@ -9,6 +9,20 @@ A projekt célja az, hogy egy teljeskörűen működő italkereskedő weboldalt 
 hanem exkluzív, csak más ország(ok)ban kapható italok népszerűvé tételében is segítsünk.
 
 # 3. Követelmény lista
+| Modul | ID | Megnevezés | Leírás |
+|--------|---------|-----------|----------------------------------|
+|Adatbázis|D1|Megnevezés|Az adatbázis a következőket tartalmazza: táblák, relációk|
+|Azonosítás|A1|Regisztráció|A felhasználó új fiókot tud regisztrálni az oldalra|
+|Azonosítás|A2|Bejelentkezés|A felhasználó be tud jelentkezni az fiókjába|
+|Azonosítás|A3|Kijelentkezés|A felhasználó ki tud jelentkezni a fiókjából|
+|Azonosítás|A4|Elfelejtett jelszó|A felhasználó meg tudja változtatni a fiókjához tartozó jelszavát|
+|Oldalak|P1|Főoldal|A felhasználó automatikusan a kezdőoldalra lesz átirányítva.|
+|Oldalak|P2|Kategóriák|A felhasználó ki tudja választani, mit keres|
+|Oldalak|P3|Termékek|A felhasználó láthatja a különböző termékek árát, leírását|
+|Oldalak|P4|Kosár|Tartalmazza az összes olyan terméket, amit a vásárló kiválasztott. Az oldalon belül tudja a termékek számít csökkenti, illetve növelni|
+|Oldalak|P5|Order page|A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni|
+|Oldalak|P6|Profil|A felhasználó profiljának az adatait tartalmazza|
+|Oldalak|P7|Profil adatainak módosítása|A felhasználó tudja szerkeszteni az adatait|
 
 # 4. Szabványok és jogok
 ## Alapvető követelmények:
