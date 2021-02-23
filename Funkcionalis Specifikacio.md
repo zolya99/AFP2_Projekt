@@ -20,7 +20,7 @@ hanem exkluzív, csak más ország(ok)ban kapható italok népszerűvé tételé
 |Oldalak|P2|Kategóriák|A felhasználó ki tudja választani, mit keres|
 |Oldalak|P3|Termékek|A felhasználó láthatja a különböző termékek árát, leírását|
 |Oldalak|P4|Kosár|Tartalmazza az összes olyan terméket, amit a vásárló kiválasztott. Az oldalon belül tudja a termékek számít csökkenti, illetve növelni|
-|Oldalak|P5|Order page|A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni|
+|Oldalak|P5|Megrendelő oldal|A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni|
 |Oldalak|P6|Profil|A felhasználó profiljának az adatait tartalmazza|
 |Oldalak|P7|Profil adatainak módosítása|A felhasználó tudja szerkeszteni az adatait|
 
