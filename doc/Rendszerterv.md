@@ -42,6 +42,10 @@ Webshop funkciók:
 -Kosár: Tartalmazza az összes olyan terméket, amit a vásárló kiválasztott. Az oldalon belül tudja a termékek számít csökkenti, illetve növelni
 -Megrendelő oldal: A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni
 -Profil: A felhasználó profiljának az adatait tartalmazza
+-Profil adatainak módosítása: A felhasználó tudja szerkeszteni az adatait
+-Hozzáférési szabályok: Egyes funkciók csak bejelentkezés után érhetőek el
+-Navigáció az oldalak között: A felhasználóknak képesnek kell lenniük bármelyik oldalra való navigálásra
+-Termékek keresése : A felhasználóknak tudniuk kell keresni a termékek között 
 
 #  6. Fizikai környezet
 - A weboldal egyaránt használható minden fajta erre alkalmas eszközön, mivel teljes mértékben reszponzív.
