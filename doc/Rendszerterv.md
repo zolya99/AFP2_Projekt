@@ -53,8 +53,12 @@ Funkcionális követelmények:
 - Kosár tartalmának tárolása
 - Termékek adatainak tárolása
 - Oldalak kezelhetősége 
-
-
+Nem funkcionális követelmények: 
+- Letisztult, felhasználóbarát felület 
+- Betöltés gyors működése 
+- Optimalizáltság
+- A rendszer biztosítja a felhasználók adatainak biztonságos tárolását
+- A felhasználó adataihoz nem férhet hozzá harmadik fél
 #  5. Funkcionális terv
 Rendszerszereplők: Vásárlók(Felhasználók)
 Rendszerhasználati esetek és lefutásaik: 
