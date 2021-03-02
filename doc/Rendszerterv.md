@@ -20,7 +20,27 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 - Nyeste Réka - Backend fejlesztő
 - Pap Gábor - Senior fejlesztő
 - Juhász Bálint - Senior fejlesztő
+### 2.3 Projekt ütemterv
+- 2021/02/23 Követelmény és Funkcionális specifikáció elkészítése
+- 2021/03/02 Rendszerterv 
+- 2021/03/09 Fejlesztés (sprint 1)
+- 2021/03/16 Fejlesztés (sprint 2)
+- 2021/03/23 A dokumentáció és a projekt demójának a bemutatása és sprint 3
+- 2021/03/30 Fejlesztés (sprint 4) 
+- 2021/04/13 Fejlesztés (sprint 5)
+- 2021/04/20 Fejlesztés (sprint 6)
+- 2021/04/27 Fejlesztés (sprint 7) és tesztelés
+- 2021/05/04 Fejlesztés (sprint 8) és tesztelés
+- 2021/05/14 Review és kész projekt bemutatása
+### 2.4 Mérföldkövek:
+- 2021/02/23 A követelmény és funkcionális specifikáció dokumentumainak a befejezése
+### 2.5 Technológiák: 
+#### Web dizájn kiegészítés: Bootstrap
+- A bootstrap-et arra használjuk, hogy a webshopunk dizájnja dinamikusan változó és ízléses legyen.
+#### Programozási nyelv: PHP
+- PHP-ban fogjuk megírni a projektünk backend kódját, mert ez az egyik legnépszerűbb környezet, amiben weboldalakat fejleszthetünk. A Laravel keretrendszer miatt PHP 7.4-nél frissebb verziót fogunk használni.
 #  3. Üzleti folyamatok
+![Uzleti Modell](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/UzlMod.png)
 #  4. Követelmények
 #  5. Funkcionális terv
 Rendszerszereplők: Vásárlók(Felhasználók)
