@@ -24,6 +24,14 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 #  4. Követelmények
 #  5. Funkcionális terv
 #  6. Fizikai környezet
+- A weboldal egyaránt használható minden fajta erre alkalmas eszközön, mivel teljes mértékben reszponzív.
+- Nincsennek megvásárolt komponenseink
+- Fejlesztő eszközök:
+	- Notepad++
+	- Wampserver64
+	- PHPStorm
+	- Atom
+	- Bootstrap
 #  7. Absztrakt domain modell
 #  8. Architektúrális terv
 #  9. Adatbázis terv
