@@ -20,6 +20,18 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 - Nyeste Réka - Backend fejlesztő
 - Pap Gábor - Senior fejlesztő
 - Juhász Bálint - Senior fejlesztő
+### 2.3 Projekt ütemterv
+- 2021/02/23 Követelmény és Funkcionális specifikáció elkészítése
+- 2021/03/02 Rendszerterv 
+- 2021/03/09 Fejlesztés (sprint 1)
+- 2021/03/16 Fejlesztés (sprint 2)
+- 2021/03/23 A dokumentáció és a projekt demójának a bemutatása és sprint 3
+- 2021/03/30 Fejlesztés (sprint 4) 
+- 2021/04/13 Fejlesztés (sprint 5)
+- 2021/04/20 Fejlesztés (sprint 6)
+- 2021/04/27 Fejlesztés (sprint 7) és tesztelés
+- 2021/05/04 Fejlesztés (sprint 8) és tesztelés
+- 2021/05/14 Review és kész projekt bemutatása
 #  3. Üzleti folyamatok
 #  4. Követelmények
 #  5. Funkcionális terv
