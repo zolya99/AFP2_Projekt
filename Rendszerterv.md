@@ -6,6 +6,9 @@ A dokumentum leírja részletesen a projektet, beleértve a weboldal funkcionali
 A fejlesztői csapat többféle technológiát használ és szoftvereket, amit a késöbbiek során részletezünk. Továbba az igényelt üzleti modell, a fejlesztés menete és a projekt dokumentációja is itt található.
 
 #  2. Projekt terv
+## 2.1 Szerepek és felelősségi körök
+### Backend fejlesztő:
+A backend fejlesztők felelősek a szerver oldali kódok írásáért, weboldali funkciók beállításáért és az adatstruktúrák írásáért. Javarészt PHP-t használnak. 
 #  3. Üzleti folyamatok
 #  4. Követelmények
 #  5. Funkcionális terv
