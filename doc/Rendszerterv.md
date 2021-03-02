@@ -10,9 +10,16 @@ A fejlesztői csapat többféle technológiát használ és szoftvereket, amit a
 ### Backend fejlesztő:
 A backend fejlesztők felelősek a szerver oldali kódok írásáért, weboldali funkciók beállításáért és az adatstruktúrák írásáért. Javarészt PHP-t használnak. 
 ### Frontend fejlesztő: 
-A frontend fejlesztők dolgoznak vizuális effekteken, amiket utána a felhasználók láthatnak és használhatnak a webshopban. Biztosítják a felhasználókat arról, hogy ne ütközzenek hibába az oldal használata során. HTML-t, CSS-t és JavaScript-et használnak többnyire.
+A frontend fejlesztők dolgoznak vizuális effekteken, amiket utána a felhasználók láthatnak és használhatnak a webshopban. Biztosítják a felhasználókat arról, hogy ne ütközzenek hibába az oldal használata során. Laravel keretrendszert, HTML-t, CSS-t és JavaScript-et használnak többnyire.
 ### Adatbázis fejlesztő:
 Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért, amiket a weboldalon használunk.
+## 2.2 A csapat tagjai:
+- Kungl Rebeka - 
+- Ligárt Ádám - 
+- Nagy Zoltán - csapatkapitány, Backend fejlesztő
+- Nyeste Réka - Backend fejlesztő
+- Pap Gábor - Senior fejlesztő
+- Juhász Bálint - Senior fejlesztő
 #  3. Üzleti folyamatok
 #  4. Követelmények
 #  5. Funkcionális terv
