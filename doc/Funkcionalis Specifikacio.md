@@ -75,4 +75,4 @@ Italkereskedés esetén mégis mi nyújthat biztonságot? Az első szó, ami esz
 - Hozzáférése kell, hogy legyen és látnia az összes megrendelést a felhasználóktól
 
 # 8. Képernyő tervek
-![layout plan](doc/Ábrák/layout.png)
+![layout plan](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/layout.png)
