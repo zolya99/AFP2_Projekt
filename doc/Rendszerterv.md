@@ -9,6 +9,8 @@ A fejlesztői csapat többféle technológiát használ és szoftvereket, amit a
 ## 2.1 Szerepek és felelősségi körök
 ### Backend fejlesztő:
 A backend fejlesztők felelősek a szerver oldali kódok írásáért, weboldali funkciók beállításáért és az adatstruktúrák írásáért. Javarészt PHP-t használnak. 
+### Frontend fejlesztő: 
+A frontend fejlesztők dolgoznak vizuális effekteken, amiket utána a felhasználók láthatnak és használhatnak a webshopban. Biztosítják a felhasználókat arról, hogy ne ütközzenek hibába az oldal használata során. HTML-t, CSS-t és JavaScript-et használnak többnyire.
 #  3. Üzleti folyamatok
 #  4. Követelmények
 #  5. Funkcionális terv
