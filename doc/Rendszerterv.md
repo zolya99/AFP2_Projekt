@@ -29,9 +29,11 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 - Fejlesztő eszközök:
 	- Notepad++
 	- Wampserver64
+	- Sublimetext
 	- PHPStorm
-	- Atom
 	- Bootstrap
+	- Laravel
+	- Mysql
 #  7. Absztrakt domain modell
 #  8. Architektúrális terv
 #  9. Adatbázis terv
