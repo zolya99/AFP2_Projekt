@@ -42,6 +42,19 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 #  3. Üzleti folyamatok
 ![Uzleti Modell](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/UzlMod.png)
 #  4. Követelmények
+Funkcionális követelmények: 
+- Regisztráció: A felhasználó új fiókot tud regisztrálni az oldalra
+- Bejelentkezés: A felhasználó be tud jelentkezni az fiókjába 
+- Kijelentkezés: A felhasználó ki tud jelentkezni a fiókjából
+- Hozzáférési szabályok: Egyes funkciók csak bejelentkezés után érhetőek el
+- Felhasználó adatainak tárolása, módosítása
+- Rendelés adatainak leadása 
+- Navigáció az oldalak között : A felhasználóknak képesnek kell lenniük bármelyik oldalra való navigálásra
+- Kosár tartalmának tárolása
+- Termékek adatainak tárolása
+- Oldalak kezelhetősége 
+
+
 #  5. Funkcionális terv
 Rendszerszereplők: Vásárlók(Felhasználók)
 Rendszerhasználati esetek és lefutásaik: 
