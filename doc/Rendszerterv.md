@@ -32,6 +32,8 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 - 2021/04/27 Fejlesztés (sprint 7) és tesztelés
 - 2021/05/04 Fejlesztés (sprint 8) és tesztelés
 - 2021/05/14 Review és kész projekt bemutatása
+### 2.4 Mérföldkövek:
+- 2021/02/23 A követelmény és funkcionális specifikáció dokumentumainak a befejezése
 #  3. Üzleti folyamatok
 #  4. Követelmények
 #  5. Funkcionális terv
