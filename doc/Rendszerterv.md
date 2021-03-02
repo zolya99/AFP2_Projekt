@@ -40,6 +40,7 @@ A bootstrap-et arra használjuk, hogy a webshopunk dizájnja dinamikusan változ
 - Programozási nyelv: PHP
 PHP-ban fogjuk megírni a projektünk backend kódját, mert ez az egyik legnépszerűbb környezet, amiben weboldalakat fejleszthetünk. A Laravel keretrendszer miatt PHP 7.4-nél frissebb verziót fogunk használni.
 #  3. Üzleti folyamatok
+![Uzleti Modell](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/UzlMod.png)
 #  4. Követelmények
 #  5. Funkcionális terv
 Rendszerszereplők: Vásárlók(Felhasználók)
