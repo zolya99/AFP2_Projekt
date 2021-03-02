@@ -35,15 +35,37 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 #  3. Üzleti folyamatok
 #  4. Követelmények
 #  5. Funkcionális terv
+Rendszerszereplők: Vásárlók(Felhasználók)
+Rendszerhasználati esetek és lefutásaik: 
+Vásárlók(Felhasználók):
+-Regisztráció: A felhasználó új fiókot tud regisztrálni az oldalra
+-Bejelentkezés: A felhasználó be tud jelentkezni az fiókjába
+-Profil adatainak módosítása: A felhasználó tudja szerkeszteni az adatait
+-Kategóriák: A felhasználó ki tudja választani mit keres
+-Kosár: Tartalmazza az összes olyan terméket, amit a vásárló kiválasztott. Az oldalon belül tudja a termékek számít csökkenti, illetve növelni
+-Rendelés: A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni
+-Kijelentkezés: A felhasználó ki tud jelentkezni a fiókjából
+-Elfelejtett jelszó: A felhasználó meg tudja változtatni a fiókjához tartozó jelszavát
+
+Webshop funkciók:
+-Főoldal: A felhasználó automatikusan a kezdőoldalra lesz átirányítva
+-Kategóriák:  A felhasználó ki tudja választani, mit keres
+-Termékek: A felhasználó láthatja a különböző termékek árát, leírását
+-Kosár: Tartalmazza az összes olyan terméket, amit a vásárló kiválasztott. Az oldalon belül tudja a termékek számít csökkenti, illetve növelni
+-Megrendelő oldal: A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni
+-Profil: A felhasználó profiljának az adatait tartalmazza
+
 #  6. Fizikai környezet
 - A weboldal egyaránt használható minden fajta erre alkalmas eszközön, mivel teljes mértékben reszponzív.
 - Nincsennek megvásárolt komponenseink
 - Fejlesztő eszközök:
 	- Notepad++
 	- Wampserver64
+	- Sublimetext
 	- PHPStorm
-	- Atom
 	- Bootstrap
+	- Laravel
+	- Mysql
 #  7. Absztrakt domain modell
 #  8. Architektúrális terv
 #  9. Adatbázis terv
