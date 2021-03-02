@@ -34,6 +34,11 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 - 2021/05/14 Review és kész projekt bemutatása
 ### 2.4 Mérföldkövek:
 - 2021/02/23 A követelmény és funkcionális specifikáció dokumentumainak a befejezése
+### 2.5 Technológiák: 
+- Web dizájn kiegészítés: Bootstrap
+A bootstrap-et arra használjuk, hogy a webshopunk dizájnja dinamikusan változó és ízléses legyen.
+- Programozási nyelv: PHP
+PHP-ban fogjuk megírni a projektünk backend kódját, mert ez az egyik legnépszerűbb környezet, amiben weboldalakat fejleszthetünk. A Laravel keretrendszer miatt PHP 7.4-nél frissebb verziót fogunk használni.
 #  3. Üzleti folyamatok
 #  4. Követelmények
 #  5. Funkcionális terv
