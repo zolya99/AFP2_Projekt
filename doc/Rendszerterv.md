@@ -35,6 +35,7 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 ### 2.4 Mérföldkövek:
 - 2021/02/23 A követelmény és funkcionális specifikáció dokumentumainak a befejezése
 #  3. Üzleti folyamatok
+![Uzleti Modell](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/UzlMod.png)
 #  4. Követelmények
 #  5. Funkcionális terv
 Rendszerszereplők: Vásárlók(Felhasználók)
