@@ -91,6 +91,14 @@ Webshop funkciók:
 	- Bootstrap
 	- Laravel
 	- Mysql
+A weboldalnak a következő alapvető követelményeknek kell megfelelnie:
+
+Könnyen érthetőnek és használhatónak kell lennie.
+Logikus felépítsűnek kell lennie a felhasználók számára.
+Használja az ipar legjobban bevált folyamatait.
+Stílusok használata, ami átláthatóvá teszi az egyes oldalak részleteit, ezen belül:
+Hibaüzenetek megjelenítése jól látható helyen és stílusban
+Olyan panelek létrehozása, ami az alapvető felhasználók számára nem látható, kizárólag a weboldal üzemeltetői férnek hozzá.
 #  7. Absztrakt domain modell
 #  8. Architektúrális terv
 #  9. Adatbázis terv
