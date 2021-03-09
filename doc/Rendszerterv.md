@@ -106,6 +106,9 @@ Olyan panelek létrehozása, ami az alapvető felhasználók számára nem láth
 #  7. Absztrakt domain modell
 #  8. Architektúrális terv
 #  9. Adatbázis terv
+A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használata elengedhetetlen.
+A felhasználók, és azok adatainak rögzítése, tárolása és rendszerezése céljából a modern adatbáziskezelés konvenciói a legcélravezetőbbek.
+Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, az ismeretségeink tudatában, és a megbízhatóság fényében.
 #  10. Teszt terv
 #  11. Telepítési terv
 #  12. Karbantartási terv
