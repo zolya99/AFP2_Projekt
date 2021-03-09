@@ -106,6 +106,19 @@ Stílusok használata, ami átláthatóvá teszi az egyes oldalak részleteit, e
 Hibaüzenetek megjelenítése jól látható helyen és stílusban
 Olyan panelek létrehozása, ami az alapvető felhasználók számára nem látható, kizárólag a weboldal üzemeltetői férnek hozzá.
 #  7. Absztrakt domain modell
+A rendszert a felhasználó egy webes alkalmazáson keresztül érheti majd el, aminek az elkészítését Java nyelven tervezzük.
+A felület lehetővé teszi majd a felhasználó számára az adatai megadásával a regisztrációt, illetve regisztráció után a bejelentkezést.
+Bejelentkezés után a felhasználó böngészhet a különböző termékkategórák között, kosárba teheti a kiválasztott termékeket.
+A termékekhez leírás, ár tartozik. A felhasználó a profil oldalon tudja szerkeszteni az adatait.
+A felhasználók és a termékek adatai egy MySQL adatbázisban lesznek tárolva.
+A webáruház letrehozásához a következő fejlesztői eszközöket használjuk:
+- Notepad++
+- Wampserver64
+- Sublimetext
+- PHPStorm
+- Bootstrap
+- Laravel
+- MySQL
 #  8. Architektúrális terv
 #  9. Adatbázis terv
 A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használata elengedhetetlen.
