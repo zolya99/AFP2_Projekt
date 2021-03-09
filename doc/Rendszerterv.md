@@ -45,6 +45,8 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 - A Trello egy Kanban-stílusú, ingyenes, web-alapú applikáció, amiben létre tudunk hozni táblákat a különböző feladatoknak, meg tudjuk címkézni őket, határidőt is tudunk hozzárendelni. Alapvető táblák például: Backlog vagy To Do, In-Progress, illetve Completed.
 #### Adatbázis: MySQL
 - Az adatbázisunkat MySQL-ben fogjuk megírni. 
+#### Keretrendszer: Laravel
+- A Laravel egy PHP alapú keretrendszer, amely megkönnyíti a weboldalunk fejlesztését.
 #  3. Üzleti folyamatok
 ![Uzleti Modell](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/UzlMod.png)
 #  4. Követelmények
