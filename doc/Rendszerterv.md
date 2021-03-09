@@ -42,6 +42,7 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 #### Kommunikáció: Discord, GitHub, Trello
 - A Discord egy olyan platform, ahol csapatunk tagjai tudnak kommunikálni egymással egyidőben voice chaten. Mivel a chatbe írt kommentek nem törlődnek, ezért vissza lehet olvasni az elküldött üzeneteket, ezért könnyebbé válik az esetlegesen felmerülő problémák visszakeresése.
 - A GitHub egy ingyenes adattár, ahol a projektet tárolni lehet fejlesztés közben. Meg tudjuk osztani és vissza tudjuk vonni azokat a verziókat, amiket meg szeretnénk változtatni, illetve ha valami hiba felmerül nem kell az elejéről elkezdeni a kódolást. 
+- A Trello egy Kanban-stílusú, ingyenes, web-alapú applikáció, amiben létre tudunk hozni táblákat a különböző feladatoknak, meg tudjuk címkézni őket, határidőt is tudunk hozzárendelni. Alapvető táblák például: Backlog vagy To Do, In-Progress, illetve Completed.
 #  3. Üzleti folyamatok
 ![Uzleti Modell](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/UzlMod.png)
 #  4. Követelmények
