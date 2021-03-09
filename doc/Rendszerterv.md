@@ -109,3 +109,7 @@ Olyan panelek létrehozása, ami az alapvető felhasználók számára nem láth
 #  10. Teszt terv
 #  11. Telepítési terv
 #  12. Karbantartási terv
+A weblap közepes mennyiségű karbantartást igényel, amely a következőkre bontható:
+- Ellenőrizni, hogy a jövőben kiadott böngésző verziókban hogyan fut a weblap, ha probléma lép fel, javítani
+- Meggyőződés arról, hogy a kiszolgáló szerver éppen fut, ha nem, akkor újraindítani
+- Időnként ellenőrizni a felvitt adatok helyességét, megfelelő formátumát.
