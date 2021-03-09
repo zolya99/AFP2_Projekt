@@ -23,14 +23,14 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 ### 2.3 Projekt ütemterv
 - 2021/02/23 Követelmény és Funkcionális specifikáció elkészítése
 - 2021/03/02 Rendszerterv 
-- 2021/03/09 Fejlesztés (sprint 1)
-- 2021/03/16 Fejlesztés (sprint 2)
-- 2021/03/23 A dokumentáció és a projekt demójának a bemutatása és sprint 3
-- 2021/03/30 Fejlesztés (sprint 4) 
-- 2021/04/13 Fejlesztés (sprint 5)
-- 2021/04/20 Fejlesztés (sprint 6)
-- 2021/04/27 Fejlesztés (sprint 7) és tesztelés
-- 2021/05/04 Fejlesztés (sprint 8) és tesztelés
+- 2021/03/09 Dokumentáció befejezése
+- 2021/03/16 A dokumentáció bemutatása
+- 2021/03/23 Fejlesztés (sprint 1)
+- 2021/03/30 Fejlesztés (sprint 2) 
+- 2021/04/13 Fejlesztés (sprint 3)
+- 2021/04/20 Fejlesztés (sprint 4)
+- 2021/04/27 Fejlesztés (sprint 5) és tesztelés
+- 2021/05/04 Fejlesztés (sprint 6) és tesztelés
 - 2021/05/14 Review és kész projekt bemutatása
 ### 2.4 Mérföldkövek:
 - 2021/02/23 A követelmény és funkcionális specifikáció dokumentumainak a befejezése
