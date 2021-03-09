@@ -130,24 +130,24 @@ A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használa
 A felhasználók, és azok adatainak rögzítése, tárolása és rendszerezése céljából a modern adatbáziskezelés konvenciói a legcélravezetőbbek.
 Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, az ismeretségeink tudatában, és a megbízhatóság fényében.
 #  10. Teszt terv
-##10.1. Bevezetés
+## 10.1. Bevezetés
 Tesztelés célja a projektben megtalálható struktúrális és design hibák feltárása.
-##10.2 Tesztelési terv hatóköre, célja: 
+## 10.2 Tesztelési terv hatóköre, célja: 
 - A tesztelési terv célja a tesztelés teljes körűségének biztosítása, a tesztelés során alkalmazott eljárások és megoldások meghatározásával.
 - A teszt végrehajtásáért ez esetben a test manager fele , és a tesztelést azt általa összeállított tesztcsapat hajtja végre.
-##10.3 Elvárások
+## 10.3 Elvárások
 Az alábbi alap elvárások képezik ennek a teszttervnek az alapját: 
 - Az olvasó ismeri az alapdokumentumokat, amelyek meghatározzák a rendszert.
 - Az Impact 2.0 projektcsapat felelős a tesztadatok előállításáért. 
-##10.4 Szükséges erőforrások
+## 10.4 Szükséges erőforrások
 Ez a fejezet a teszteléshez szükséges erőforrásokat fejti ki.
-###10.4.1  Feladatkörök és felelősségek (tesztcsapat meghatározása)
+### 10.4.1  Feladatkörök és felelősségek (tesztcsapat meghatározása)
 Tesztelő, Teszt-koordinátor: 	 A teszt végrehajtása, észrevételek dokumentálása, teszt dokumentáció archiválása.Teszt terv készítése. A tesztterv jóváhagyatása a projektmenedzserrel. Teszt forgatókönyvek létrehozása Inkonzisztenciák kezelése. Helyes és időbeni hibakezelés. Szükség esetén problémák eszkalálása a projekt menedzsernek. Végső riport készítése. Teszt dokumentum archiválása. Az észrevételek státuszának követése, ill. dokumentálása.
 Projektvezető:  Teszt terv jóváhagyása Teszt forgatókönyv (testscript) 
-##10.5 Tesztelési terv
+## 10.5 Tesztelési terv
 Ez a fejezet leírja a teszt típusát, a metodológiáját és a riport készítés módszerét.
 Emellett meghatározza a teszt elvárásokat, a teszt-esetek elvárt eredményeit, sikerességének kritériumait, a kockázatok kezelését és a hatáskörön kívül eseteket.
-###10.5.1 Prototípus (modul) teszt
+### 10.5.1 Prototípus (modul) teszt
 A prototípustesztelés (vagy másik nevén modultesztelés) célja a rendszer már működő moduljainak önálló tesztelése, a modulon belüli hibák azonosításának és kiküszöbölésének érdekében. Módszere: A szegmensek validálása egyénileg történik. A tesztelés visszont a szegmensek föggőségeire is ki terjed. 
 
 #  11. Telepítési terv
