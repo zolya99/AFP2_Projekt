@@ -131,6 +131,7 @@ A felhasználók, és azok adatainak rögzítése, tárolása és rendszerezése
 Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, az ismeretségeink tudatában, és a megbízhatóság fényében.
 #  10. Teszt terv
 #  11. Telepítési terv
+A projektünkben főleg PHP, HTML és CSS kódok lesznek. Az első lépés: egy adatbázis készítése a megfelelő táblákkal, ezután már tudunk dolgozni az egyes oldalakkal. Ezeknek a weblapoknak először a backend, vagyis a PHP kódját írjuk meg, amit az adatbázis el tud tárolni. Ezután a frontend része következik, vagyis hozzáadjuk a Bootstrapet, megírjuk a HTML, illetve a CSS kódokat. Az alap projektet a Laravel keretrendszer segítségével hozzuk létre.  
 #  12. Karbantartási terv
 A weblap közepes mennyiségű karbantartást igényel, amely a következőkre bontható:
 - Ellenőrizni, hogy a jövőben kiadott böngésző verziókban hogyan fut a weblap, ha probléma lép fel, javítani
