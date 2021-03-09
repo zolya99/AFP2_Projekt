@@ -121,6 +121,7 @@ A webáruház letrehozásához a következő fejlesztői eszközöket használju
 - Laravel
 - MySQL
 #  8. Architektúrális terv
+A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A program Laravel keretrendszer használatával készül el.
 #  9. Adatbázis terv
 A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használata elengedhetetlen.
 A felhasználók, és azok adatainak rögzítése, tárolása és rendszerezése céljából a modern adatbáziskezelés konvenciói a legcélravezetőbbek.
