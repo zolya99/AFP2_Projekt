@@ -39,6 +39,8 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 - A bootstrap-et arra használjuk, hogy a webshopunk dizájnja dinamikusan változó és ízléses legyen.
 #### Programozási nyelv: PHP
 - PHP-ban fogjuk megírni a projektünk backend kódját, mert ez az egyik legnépszerűbb környezet, amiben weboldalakat fejleszthetünk. A Laravel keretrendszer miatt PHP 7.4-nél frissebb verziót fogunk használni.
+#### Kommunikáció: Discord, GitHub, Trello
+- A Discord egy olyan platform, ahol csapatunk tagjai tudnak kommunikálni egymással egyidőben voice chaten. Mivel a chatbe írt kommentek nem törlődnek, ezért vissza lehet olvasni az elküldött üzeneteket, ezért könnyebbé válik az esetlegesen felmerülő problémák visszakeresése.
 #  3. Üzleti folyamatok
 ![Uzleti Modell](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/UzlMod.png)
 #  4. Követelmények
