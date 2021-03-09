@@ -3,7 +3,9 @@
 Csapatunk elkötelezett egy teljesen müködő weboldal létrehozásában, kielégítve az emberek különböző igényeit az italok szempontjából. A weboldal változatos üditő és italválasztékkal fog rendelkezni.
 A dokumentum leírja részletesen a projektet, beleértve a weboldal funkcionalitását, a csapat tagjait, szerepüket és, hogy miért felelősek, továbbá a technológiákat, amiket a projekt során használunk, stb.
 ## 1.2 Projekt áttekintés:
-A fejlesztői csapat többféle technológiát használ és szoftvereket, amit a késöbbiek során részletezünk. Továbba az igényelt üzleti modell, a fejlesztés menete és a projekt dokumentációja is itt található.
+A fejlesztői csapat többféle technológiát használ és szoftvereket, amit a késöbbiek során részletezünk. Továbba az igényelt üzleti modell, a fejlesztés menete és a projekt dokumentációja is itt található. A működés kialakítása során elsődleges feladat, hogy a projektben közreműködő, vagy azzal
+kapcsolatban álló személy számára egyértelmű legyen a működés rendje, a
+projekt teljes időtartamában alkalmazott működési eljárások és eszközök.
 
 #  2. Projekt terv
 ## 2.1 Szerepek és felelősségi körök
@@ -14,23 +16,23 @@ A frontend fejlesztők dolgoznak vizuális effekteken, amiket utána a felhaszn�
 ### Adatbázis fejlesztő:
 Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért, amiket a weboldalon használunk.
 ## 2.2 A csapat tagjai:
-- Kungl Rebeka - 
-- Ligárt Ádám - 
-- Nagy Zoltán - csapatkapitány, Backend fejlesztő
+- Kungl Rebeka - Frontend fejlesztő
+- Ligárt Ádám - Frontend fejlesztő
+- Nagy Zoltán - csapatkapitány, Backend és Adatbázis fejlesztő
 - Nyeste Réka - Backend fejlesztő
 - Pap Gábor - Senior fejlesztő
 - Juhász Bálint - Senior fejlesztő
 ### 2.3 Projekt ütemterv
 - 2021/02/23 Követelmény és Funkcionális specifikáció elkészítése
 - 2021/03/02 Rendszerterv 
-- 2021/03/09 Fejlesztés (sprint 1)
-- 2021/03/16 Fejlesztés (sprint 2)
-- 2021/03/23 A dokumentáció és a projekt demójának a bemutatása és sprint 3
-- 2021/03/30 Fejlesztés (sprint 4) 
-- 2021/04/13 Fejlesztés (sprint 5)
-- 2021/04/20 Fejlesztés (sprint 6)
-- 2021/04/27 Fejlesztés (sprint 7) és tesztelés
-- 2021/05/04 Fejlesztés (sprint 8) és tesztelés
+- 2021/03/09 Dokumentáció befejezése
+- 2021/03/16 A dokumentáció bemutatása
+- 2021/03/23 Fejlesztés (sprint 1)
+- 2021/03/30 Fejlesztés (sprint 2) 
+- 2021/04/13 Fejlesztés (sprint 3)
+- 2021/04/20 Fejlesztés (sprint 4)
+- 2021/04/27 Fejlesztés (sprint 5) és tesztelés
+- 2021/05/04 Fejlesztés (sprint 6) és tesztelés
 - 2021/05/14 Review és kész projekt bemutatása
 ### 2.4 Mérföldkövek:
 - 2021/02/23 A követelmény és funkcionális specifikáció dokumentumainak a befejezése
@@ -42,6 +44,11 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 #### Kommunikáció: Discord, GitHub, Trello
 - A Discord egy olyan platform, ahol csapatunk tagjai tudnak kommunikálni egymással egyidőben voice chaten. Mivel a chatbe írt kommentek nem törlődnek, ezért vissza lehet olvasni az elküldött üzeneteket, ezért könnyebbé válik az esetlegesen felmerülő problémák visszakeresése.
 - A GitHub egy ingyenes adattár, ahol a projektet tárolni lehet fejlesztés közben. Meg tudjuk osztani és vissza tudjuk vonni azokat a verziókat, amiket meg szeretnénk változtatni, illetve ha valami hiba felmerül nem kell az elejéről elkezdeni a kódolást. 
+- A Trello egy Kanban-stílusú, ingyenes, web-alapú applikáció, amiben létre tudunk hozni táblákat a különböző feladatoknak, meg tudjuk címkézni őket, határidőt is tudunk hozzárendelni. Alapvető táblák például: Backlog vagy To Do, In-Progress, illetve Completed.
+#### Adatbázis: MySQL
+- Az adatbázisunkat MySQL-ben fogjuk megírni. 
+#### Keretrendszer: Laravel
+- A Laravel egy PHP alapú keretrendszer, amely megkönnyíti a weboldalunk fejlesztését.
 #  3. Üzleti folyamatok
 ![Uzleti Modell](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/UzlMod.png)
 #  4. Követelmények
@@ -127,7 +134,28 @@ A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használa
 A felhasználók, és azok adatainak rögzítése, tárolása és rendszerezése céljából a modern adatbáziskezelés konvenciói a legcélravezetőbbek.
 Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, az ismeretségeink tudatában, és a megbízhatóság fényében.
 #  10. Teszt terv
+## 10.1. Bevezetés
+Tesztelés célja a projektben megtalálható struktúrális és design hibák feltárása.
+## 10.2 Tesztelési terv hatóköre, célja: 
+- A tesztelési terv célja a tesztelés teljes körűségének biztosítása, a tesztelés során alkalmazott eljárások és megoldások meghatározásával.
+- A teszt végrehajtásáért ez esetben a test manager fele , és a tesztelést azt általa összeállított tesztcsapat hajtja végre.
+## 10.3 Elvárások
+Az alábbi alap elvárások képezik ennek a teszttervnek az alapját: 
+- Az olvasó ismeri az alapdokumentumokat, amelyek meghatározzák a rendszert.
+- Az Impact 2.0 projektcsapat felelős a tesztadatok előállításáért. 
+## 10.4 Szükséges erőforrások
+Ez a fejezet a teszteléshez szükséges erőforrásokat fejti ki.
+### 10.4.1  Feladatkörök és felelősségek (tesztcsapat meghatározása)
+Tesztelő, Teszt-koordinátor: 	 A teszt végrehajtása, észrevételek dokumentálása, teszt dokumentáció archiválása.Teszt terv készítése. A tesztterv jóváhagyatása a projektmenedzserrel. Teszt forgatókönyvek létrehozása Inkonzisztenciák kezelése. Helyes és időbeni hibakezelés. Szükség esetén problémák eszkalálása a projekt menedzsernek. Végső riport készítése. Teszt dokumentum archiválása. Az észrevételek státuszának követése, ill. dokumentálása.
+Projektvezető:  Teszt terv jóváhagyása Teszt forgatókönyv (testscript) 
+## 10.5 Tesztelési terv
+Ez a fejezet leírja a teszt típusát, a metodológiáját és a riport készítés módszerét.
+Emellett meghatározza a teszt elvárásokat, a teszt-esetek elvárt eredményeit, sikerességének kritériumait, a kockázatok kezelését és a hatáskörön kívül eseteket.
+### 10.5.1 Prototípus (modul) teszt
+A prototípustesztelés (vagy másik nevén modultesztelés) célja a rendszer már működő moduljainak önálló tesztelése, a modulon belüli hibák azonosításának és kiküszöbölésének érdekében. Módszere: A szegmensek validálása egyénileg történik. A tesztelés visszont a szegmensek föggőségeire is ki terjed. 
+
 #  11. Telepítési terv
+A projektünkben főleg PHP, HTML és CSS kódok lesznek. Az első lépés: egy adatbázis készítése a megfelelő táblákkal, ezután már tudunk dolgozni az egyes oldalakkal. Ezeknek a weblapoknak először a backend, vagyis a PHP kódját írjuk meg, amit az adatbázis el tud tárolni. Ezután a frontend része következik, vagyis hozzáadjuk a Bootstrapet, megírjuk a HTML, illetve a CSS kódokat. Az alap projektet a Laravel keretrendszer segítségével hozzuk létre.  
 #  12. Karbantartási terv
 A weblap közepes mennyiségű karbantartást igényel, amely a következőkre bontható:
 - Ellenőrizni, hogy a jövőben kiadott böngésző verziókban hogyan fut a weblap, ha probléma lép fel, javítani
