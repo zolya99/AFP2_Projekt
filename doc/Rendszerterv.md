@@ -14,9 +14,9 @@ A frontend fejlesztők dolgoznak vizuális effekteken, amiket utána a felhaszn�
 ### Adatbázis fejlesztő:
 Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért, amiket a weboldalon használunk.
 ## 2.2 A csapat tagjai:
-- Kungl Rebeka - 
-- Ligárt Ádám - 
-- Nagy Zoltán - csapatkapitány, Backend fejlesztő
+- Kungl Rebeka - Frontend fejlesztő
+- Ligárt Ádám - Frontend fejlesztő
+- Nagy Zoltán - csapatkapitány, Backend és Adatbázis fejlesztő
 - Nyeste Réka - Backend fejlesztő
 - Pap Gábor - Senior fejlesztő
 - Juhász Bálint - Senior fejlesztő
