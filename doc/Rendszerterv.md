@@ -39,6 +39,9 @@ Az adatbázis fejlesztők felelősek a tárhelyért és az adatok kezeléséért
 - A bootstrap-et arra használjuk, hogy a webshopunk dizájnja dinamikusan változó és ízléses legyen.
 #### Programozási nyelv: PHP
 - PHP-ban fogjuk megírni a projektünk backend kódját, mert ez az egyik legnépszerűbb környezet, amiben weboldalakat fejleszthetünk. A Laravel keretrendszer miatt PHP 7.4-nél frissebb verziót fogunk használni.
+#### Kommunikáció: Discord, GitHub, Trello
+- A Discord egy olyan platform, ahol csapatunk tagjai tudnak kommunikálni egymással egyidőben voice chaten. Mivel a chatbe írt kommentek nem törlődnek, ezért vissza lehet olvasni az elküldött üzeneteket, ezért könnyebbé válik az esetlegesen felmerülő problémák visszakeresése.
+- A GitHub egy ingyenes adattár, ahol a projektet tárolni lehet fejlesztés közben. Meg tudjuk osztani és vissza tudjuk vonni azokat a verziókat, amiket meg szeretnénk változtatni, illetve ha valami hiba felmerül nem kell az elejéről elkezdeni a kódolást. 
 #  3. Üzleti folyamatok
 ![Uzleti Modell](https://github.com/zolya99/AFP2_Projekt/blob/main/doc/%C3%81br%C3%A1k/UzlMod.png)
 #  4. Követelmények
@@ -104,8 +107,24 @@ Stílusok használata, ami átláthatóvá teszi az egyes oldalak részleteit, e
 Hibaüzenetek megjelenítése jól látható helyen és stílusban
 Olyan panelek létrehozása, ami az alapvető felhasználók számára nem látható, kizárólag a weboldal üzemeltetői férnek hozzá.
 #  7. Absztrakt domain modell
+A rendszert a felhasználó egy webes alkalmazáson keresztül érheti majd el, aminek az elkészítését Java nyelven tervezzük.
+A felület lehetővé teszi majd a felhasználó számára az adatai megadásával a regisztrációt, illetve regisztráció után a bejelentkezést.
+Bejelentkezés után a felhasználó böngészhet a különböző termékkategórák között, kosárba teheti a kiválasztott termékeket.
+A termékekhez leírás, ár tartozik. A felhasználó a profil oldalon tudja szerkeszteni az adatait.
+A felhasználók és a termékek adatai egy MySQL adatbázisban lesznek tárolva.
+A webáruház letrehozásához a következő fejlesztői eszközöket használjuk:
+- Notepad++
+- Wampserver64
+- Sublimetext
+- PHPStorm
+- Bootstrap
+- Laravel
+- MySQL
 #  8. Architektúrális terv
 #  9. Adatbázis terv
+A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használata elengedhetetlen.
+A felhasználók, és azok adatainak rögzítése, tárolása és rendszerezése céljából a modern adatbáziskezelés konvenciói a legcélravezetőbbek.
+Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, az ismeretségeink tudatában, és a megbízhatóság fényében.
 #  10. Teszt terv
 #  11. Telepítési terv
 #  12. Karbantartási terv
