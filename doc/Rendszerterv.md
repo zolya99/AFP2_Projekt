@@ -63,6 +63,7 @@ Funkcionális követelmények:
 - Kosár tartalmának tárolása
 - Termékek adatainak tárolása
 - Oldalak kezelhetősége 
+
 Nem funkcionális követelmények: 
 - Letisztult, felhasználóbarát felület 
 - Betöltés gyors működése 
