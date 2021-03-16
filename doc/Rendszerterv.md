@@ -71,29 +71,29 @@ Nem funkcionális követelmények:
 - A rendszer biztosítja a felhasználók adatainak biztonságos tárolását
 - A felhasználó adataihoz nem férhet hozzá harmadik fél
 #  5. Funkcionális terv
-Rendszerszereplők: Vásárlók(Felhasználók)
-Rendszerhasználati esetek és lefutásaik: 
-Vásárlók(Felhasználók):
--Regisztráció: A felhasználó új fiókot tud regisztrálni az oldalra
--Bejelentkezés: A felhasználó be tud jelentkezni az fiókjába
--Profil adatainak módosítása: A felhasználó tudja szerkeszteni az adatait
--Kategóriák: A felhasználó ki tudja választani mit keres
--Kosár: Tartalmazza az összes olyan terméket, amit a vásárló kiválasztott. Az oldalon belül tudja a termékek számít csökkenti, illetve növelni
--Rendelés: A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni
--Kijelentkezés: A felhasználó ki tud jelentkezni a fiókjából
--Elfelejtett jelszó: A felhasználó meg tudja változtatni a fiókjához tartozó jelszavát
+- Rendszerszereplők: Vásárlók(Felhasználók)
+- Rendszerhasználati esetek és lefutásaik: 
+- Vásárlók(Felhasználók):
+- Regisztráció: A felhasználó új fiókot tud regisztrálni az oldalra
+- Bejelentkezés: A felhasználó be tud jelentkezni az fiókjába
+- Profil adatainak módosítása: A felhasználó tudja szerkeszteni az adatait
+- Kategóriák: A felhasználó ki tudja választani mit keres
+- Kosár: Tartalmazza az összes olyan terméket, amit a vásárló kiválasztott. Az oldalon belül tudja a termékek számít csökkenti, illetve növelni
+- Rendelés: A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni
+- Kijelentkezés: A felhasználó ki tud jelentkezni a fiókjából
+- Elfelejtett jelszó: A felhasználó meg tudja változtatni a fiókjához tartozó jelszavát
 
 Webshop funkciók:
--Főoldal: A felhasználó automatikusan a kezdőoldalra lesz átirányítva
--Kategóriák:  A felhasználó ki tudja választani, mit keres
--Termékek: A felhasználó láthatja a különböző termékek árát, leírását
--Kosár: Tartalmazza az összes olyan terméket, amit a vásárló kiválasztott. Az oldalon belül tudja a termékek számít csökkenti, illetve növelni
--Megrendelő oldal: A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni
--Profil: A felhasználó profiljának az adatait tartalmazza
--Profil adatainak módosítása: A felhasználó tudja szerkeszteni az adatait
--Hozzáférési szabályok: Egyes funkciók csak bejelentkezés után érhetőek el
--Navigáció az oldalak között: A felhasználóknak képesnek kell lenniük bármelyik oldalra való navigálásra
--Termékek keresése : A felhasználóknak tudniuk kell keresni a termékek között 
+- Főoldal: A felhasználó automatikusan a kezdőoldalra lesz átirányítva
+- Kategóriák:  A felhasználó ki tudja választani, mit keres
+- Termékek: A felhasználó láthatja a különböző termékek árát, leírását
+- Kosár: Tartalmazza az összes olyan terméket, amit a vásárló kiválasztott. Az oldalon belül tudja a termékek számít csökkenti, illetve növelni
+- Megrendelő oldal: A felhasználó meg tudja adni, hogy hova szeretne rendelni, illetve hogy kártyával vagy készpénzzel szeretne-e fizetni
+- Profil: A felhasználó profiljának az adatait tartalmazza
+- Profil adatainak módosítása: A felhasználó tudja szerkeszteni az adatait
+- Hozzáférési szabályok: Egyes funkciók csak bejelentkezés után érhetőek el
+- Navigáció az oldalak között: A felhasználóknak képesnek kell lenniük bármelyik oldalra való navigálásra
+- Termékek keresése : A felhasználóknak tudniuk kell keresni a termékek között 
 
 #  6. Fizikai környezet
 - A weboldal egyaránt használható minden fajta erre alkalmas eszközön, mivel teljes mértékben reszponzív.
@@ -147,8 +147,8 @@ Az alábbi alap elvárások képezik ennek a teszttervnek az alapját:
 ## 10.4 Szükséges erőforrások
 Ez a fejezet a teszteléshez szükséges erőforrásokat fejti ki.
 ### 10.4.1  Feladatkörök és felelősségek (tesztcsapat meghatározása)
-Tesztelő, Teszt-koordinátor: 	 A teszt végrehajtása, észrevételek dokumentálása, teszt dokumentáció archiválása.Teszt terv készítése. A tesztterv jóváhagyatása a projektmenedzserrel. Teszt forgatókönyvek létrehozása Inkonzisztenciák kezelése. Helyes és időbeni hibakezelés. Szükség esetén problémák eszkalálása a projekt menedzsernek. Végső riport készítése. Teszt dokumentum archiválása. Az észrevételek státuszának követése, ill. dokumentálása.
-Projektvezető:  Teszt terv jóváhagyása Teszt forgatókönyv (testscript) 
+- Tesztelő, Teszt-koordinátor: 	 A teszt végrehajtása, észrevételek dokumentálása, teszt dokumentáció archiválása.Teszt terv készítése. A tesztterv jóváhagyatása a projektmenedzserrel. Teszt forgatókönyvek létrehozása Inkonzisztenciák kezelése. Helyes és időbeni hibakezelés. Szükség esetén problémák eszkalálása a projekt menedzsernek. Végső riport készítése. Teszt dokumentum archiválása. Az észrevételek státuszának követése, ill. dokumentálása.
+- Projektvezető:  Teszt terv jóváhagyása Teszt forgatókönyv (testscript) 
 ## 10.5 Tesztelési terv
 Ez a fejezet leírja a teszt típusát, a metodológiáját és a riport készítés módszerét.
 Emellett meghatározza a teszt elvárásokat, a teszt-esetek elvárt eredményeit, sikerességének kritériumait, a kockázatok kezelését és a hatáskörön kívül eseteket.
