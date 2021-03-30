@@ -12,3 +12,5 @@ webaruhaz/.idea/vcs.xml
 webaruhaz/.idea/webaruhaz.iml
 
 webaruhaz/.idea/workspace.xml
+
+webaruhaz/database/migrations/2021_03_30_141705_users.php
