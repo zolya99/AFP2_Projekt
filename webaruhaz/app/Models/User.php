@@ -50,4 +50,10 @@ class User extends Authenticatable
             return Addresses::find($this->billing);
         return null;
     }
+
+    public function shipping(){
+        if($this->shipping)
+            return Addresses::find($this->shipping);
+        return null;
+    }
 }
