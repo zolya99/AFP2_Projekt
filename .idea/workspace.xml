@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee8a1c8a-33c6-4609-a26d-bd7b4fb3341f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/webaruhaz/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/webaruhaz/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webaruhaz/app/Http/Controllers/productContoller.php" beforeDir="false" afterPath="$PROJECT_DIR$/webaruhaz/app/Http/Controllers/productContoller.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/webaruhaz/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -153,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618159644880</updated>
       <workItem from="1618159646506" duration="4257000" />
+      <workItem from="1618253545832" duration="657000" />
     </task>
     <servers />
   </component>
