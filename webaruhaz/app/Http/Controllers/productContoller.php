@@ -23,7 +23,7 @@ class productContoller extends Controller
         }
 
     }
-    function addProduct($productBrand, $productName, $category, $price, $inStock, $picture, $description) {
+    function addProduct($name, $price, $onStock, $picture, $description) {
 
         $pictureTargetFile = image.basename($picture['name']);
         $pictureFileType = strtolower(pathinfo($pictureTargetFile,PATHINFO_EXTENSION));
@@ -41,13 +41,11 @@ class productContoller extends Controller
             return '<p id="alert">Nem megfelelő fájl formátum!</p>';
         }
         else if (move_uploaded_file($picture["tmp_name"], $pictureTargetFile)) {
-            $query = "INSERT INTO products (product_brand, product_name, category, price, in_stock, picture, description) VALUES (:productBrand,:productName,:category,:price,:inStock,:picture,:description)";
+            $query = "INSERT INTO products(name, price, onStock, picture, description) VALUES (:name,:price,:onStock,:picture,:description)";
             $params = [
-                ':productBrand' => $productBrand,
-                ':productName' => $productName,
-                ':category' => $category,
+                ':name' => $name,
                 ':price' => $price,
-                ':inStock' => $inStock,
+                ':onStock' => $onStock,
                 ':picture' => basename($picture['name']),
                 ':description' => $description
             ];
