@@ -72,8 +72,8 @@
                             <div class="item">
                                 <img src="{{url('/image/kep4.jpg')}}" alt="3" style="width:100%;height:100%"/>
                                 <div class="carousel-caption">
-                                    <h3>Harmadik</h3>
-                                    <p>Harmadik kép</p>
+                                    <h3>Prémium minőségű szeszes italok széles választéka</h3>
+                                    <p>Remek akciókkal várjuk rendelését!</p>
                                 </div>
                             </div>
 
