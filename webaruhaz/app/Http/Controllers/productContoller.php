@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class productContoller extends Controller
 {
+    public function index()
+    {
+        return view('shop', [ 'products' => \App\Book::all()]);
+    }
     function getProduct($id)
     {
         $query = "SELECT id, products.name, price, description, onStock, placeOfOrigin FROM products WHERE id = :id";

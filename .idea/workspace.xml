@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c6646a07-b37f-4f05-8edb-47363e17b864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webaruhaz/app/Http/Controllers/productContoller.php" beforeDir="false" afterPath="$PROJECT_DIR$/webaruhaz/app/Http/Controllers/productContoller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webaruhaz/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/webaruhaz/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webaruhaz/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/webaruhaz/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webaruhaz/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/webaruhaz/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webaruhaz/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/webaruhaz/routes/web.php" afterDir="false" />
@@ -158,7 +160,9 @@
       <workItem from="1618254970653" duration="1881000" />
       <workItem from="1618256884585" duration="136000" />
       <workItem from="1618257280385" duration="1500000" />
-      <workItem from="1618258812343" duration="564000" />
+      <workItem from="1618258812343" duration="1057000" />
+      <workItem from="1618260264056" duration="638000" />
+      <workItem from="1618320919931" duration="5269000" />
     </task>
     <servers />
   </component>
