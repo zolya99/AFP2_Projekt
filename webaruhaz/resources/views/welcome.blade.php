@@ -30,10 +30,10 @@
                             </form>
                         </a>
                     @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Bejelentkezés</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Regisztráció</a>
                         @endif
                     @endauth
                 </div>
@@ -54,15 +54,15 @@
                         <div class="carousel-inner">
 
                             <div class="item active">
-                                <img src="{{url('/image/kep1.jpg')}}" alt="1" style="width:100%;height:100%"/>
+                                <img src="{{url('/image/kep1.jpg')}}" alt="1" style="width:100%; "/>
 
                                 <div class="carousel-caption">
-                                    <h3>Üdvözöljük honlapunkon!</h3>
+                                    <h1 >Üdvözöljük honlapunkon!</h1>
                                 </div>
                             </div>
 
                             <div class="item">
-                                <img src="{{url('/image/kep2.jpg')}}" alt="2" style="width:100%;height:100% "/>
+                                <img src="{{url('/image/kep2.jpg')}}" alt="2" style="width: 100%;"/>
                                 <div class="carousel-caption">
                                     <h3>Válogasson magas minőségű italaink közül</h3>
                                     <p>Több ezer alkohol tartalmú ital egy helyen!</p>
@@ -70,10 +70,11 @@
                             </div>
 
                             <div class="item">
-                                <img src="{{url('/image/kep4.jpg')}}" alt="3" style="width:100%;height:100%"/>
+                                <img src="{{url('/image/kep3.jpg')}}" alt="3" style="width:100%;"/>
                                 <div class="carousel-caption">
                                     <h3>Prémium minőségű szeszes italok széles választéka</h3>
                                     <p>Remek akciókkal várjuk rendelését!</p>
+
                                 </div>
                             </div>
 
