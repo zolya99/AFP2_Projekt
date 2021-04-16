@@ -26,5 +26,6 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/shop', 'productController@index')->name('shop');
+Route::get('/shop', 'productController@search')->name('shop.search');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
