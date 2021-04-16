@@ -36,7 +36,7 @@
                             </header>
                             <div class="filter-content collapse in" id="collapse_2" style="">
                                 <div class="card-body">
-                                    <form method="post" class="pb-3" action="{{ route('shop.search') }}">
+                                    <form method="post" class="pb-3" action="{{ route('shop') }}">
                                         @csrf
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="search_author" name="search_author" placeholder="Search">
@@ -58,7 +58,7 @@
                             </header>
                             <div class="filter-content collapse in" id="collapse_3" style="">
                                 <div class="card-body">
-                                    <form method="post" class="pb-3" action="{{ route('shop.search') }}">
+                                    <form method="post" class="pb-3" action="{{ route('shop') }}">
                                         @csrf
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="search_genre" name="search_genre" placeholder="Search" />
@@ -158,7 +158,7 @@
                                 </div><!-- card-body.// -->
                                 <h6 class="title card-header">Publisher </h6>
                                 <div class="card-body">
-                                    <form method="post" class="pb-3"  action="{{ route('shop.search') }}">
+                                    <form method="post" class="pb-3"  action="{{ route('shop') }}">
                                         @csrf
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="search_publisher" name="search_publisher" placeholder="Search">

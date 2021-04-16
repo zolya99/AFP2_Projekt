@@ -3,12 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Drink;
 
 class productContoller extends Controller
 {
     public function index()
     {
-        return view('shop', [ 'products' => \App\Drink::all()]);
+        return view('shop');
     }
     public function getProduct($id)
     {
