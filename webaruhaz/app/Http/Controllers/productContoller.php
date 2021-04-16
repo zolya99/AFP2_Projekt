@@ -12,7 +12,7 @@ class productContoller extends Controller
     }
     public function getProduct($id)
     {
-        $query = "SELECT FROM products  id, products.name, price, description, onStock, placeOfOrigin WHERE id = :id";
+        $query = "SELECT FROM products id, products.name, type, price, description, onStock, placeOfOrigin WHERE id = :id";
         $params = [
             'id' => $id
         ];
@@ -27,7 +27,7 @@ class productContoller extends Controller
         }
 
     }
-    public function addProduct($name, $price, $onStock, $picture, $description) {
+    public function addProduct($name, $price, $type, $onStock, $picture, $description) {
 
         $pictureTargetFile = image.basename($picture['name']);
         $pictureFileType = strtolower(pathinfo($pictureTargetFile,PATHINFO_EXTENSION));
@@ -45,10 +45,11 @@ class productContoller extends Controller
             return '<p id="alert">Nem megfelelő fájl formátum!</p>';
         }
         else if (move_uploaded_file($picture["tmp_name"], $pictureTargetFile)) {
-            $query = "INSERT INTO products(name, price, onStock, picture, description) VALUES (:name,:price,:onStock,:picture,:description)";
+            $query = "INSERT INTO products(name, price, type, onStock, picture, description) VALUES (:name,:price,:type,:onStock,:picture,:description)";
             $params = [
                 ':name' => $name,
                 ':price' => $price,
+                ':type' => $type,
                 ':onStock' => $onStock,
                 ':picture' => basename($picture['name']),
                 ':description' => $description
