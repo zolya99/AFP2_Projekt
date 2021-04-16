@@ -15,11 +15,7 @@
                     @endif
 
                     {{ __('Sikeres bejelentkezés!') }}
-                        <a href="{{ route('logout') }}"
-                           onclick="event.preventDefault();
-                           document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
-                        </a>
+                       
 
                 </div>
             </div>
