@@ -27,7 +27,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/shop', [App\Http\Controllers\productController::class, 'index'])->name('shop');
 
+Auth::routes();
 Route::get('/profile',[App\Http\Controllers\userController::class, 'index'])->name('profile');
+Route::get('/profile/edit', 'ProfileController@edit')->name('profile.edit');
+Route::post('/profile/update', 'ProfileController@update')->name('profile.update');
 
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
