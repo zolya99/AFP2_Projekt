@@ -25,7 +25,14 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+<<<<<<< HEAD
+Route::get('/shop', function(){
+    return view('shop');
+});
+=======
 Route::get('/shop', 'productController@index')->name('shop');
 Route::get('/shop', 'productController@search')->name('shop.search');
+Route::get('/shop', 'productController@search')->name('shop.search');
+>>>>>>> main
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
