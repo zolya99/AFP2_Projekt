@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Drink;
 
-class productContoller extends Controller
+class productController extends Controller
 {
     public function index()
     {

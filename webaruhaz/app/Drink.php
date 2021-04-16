@@ -2,7 +2,7 @@
 
 
 namespace App;
-use App\Http\Controllers\productContoller;
+use App\Http\Controllers\productController;
 
 class Drink extends Model
 {
