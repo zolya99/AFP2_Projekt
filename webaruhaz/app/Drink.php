@@ -3,6 +3,7 @@
 
 namespace App;
 use App\Http\Controllers\productController;
+use Illuminate\Database\Eloquent\Model;
 
 class Drink extends Model
 {
@@ -15,7 +16,7 @@ class Drink extends Model
 
         try {
             if ($d_t->count() > 0)
-                $ans = Drink::query()->where('id', '==', $d_t->drink_id)->get();
+                $ans = Drink::query()->where('id', '==', $d_t->id)->get();
             try {
                 if ($ans->count() > 0)
                     return $ans;
