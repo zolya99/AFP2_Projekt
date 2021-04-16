@@ -14,7 +14,7 @@
                             <header class="card-header">
                                 <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
                                     <i class="icon-control orange fa fa-chevron-down"></i>
-                                    <h6 class="title">Quick Search</h6>
+                                    <h6 class="title">Gyors keresés</h6>
                                 </a>
                             </header>
                             <div class="filter-content collapse show" id="collapse_1" style="">
@@ -31,7 +31,7 @@
                             <header class="card-header">
                                 <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="false" class="">
                                     <i class="icon-control orange fa fa-chevron-down"></i>
-                                    <h6 class="title">Author</h6>
+                                    <h6 class="title">Italok</h6>
                                 </a>
                             </header>
                             <div class="filter-content collapse in" id="collapse_2" style="">
@@ -53,7 +53,7 @@
                             <header class="card-header">
                                 <a href="#" data-toggle="collapse" data-target="#collapse_3" aria-expanded="false" class="">
                                     <i class="icon-control orange fa fa-chevron-down"></i>
-                                    <h6 class="title">Genre </h6>
+                                    <h6 class="title">Ital fajták</h6>
                                 </a>
                             </header>
                             <div class="filter-content collapse in" id="collapse_3" style="">
@@ -103,7 +103,7 @@
                             <header class="card-header" >
                                 <a href="#" data-toggle="collapse" data-target="#collapse_4" aria-expanded="false" class="">
                                     <i class="icon-control orange fa fa-chevron-down"></i>
-                                    <h6 class="title">Price range </h6>
+                                    <h6 class="title">Ár</h6>
                                 </a>
                             </header>
                             <div class="filter-content collapse in"  id="collapse_4" style="">
@@ -125,38 +125,38 @@
                             <header class="card-header">
                                 <a href="#" data-toggle="collapse" data-target="#collapse_6" aria-expanded="false" class="">
                                     <i class="icon-control orange fa fa-chevron-down "></i>
-                                    <h6 class="title">More filter </h6>
+                                    <h6 class="title">További szűrők</h6>
                                 </a>
                             </header>
                             <div class="filter-content collapse in" id="collapse_6" style="">
-                                <h6 class="title card-header">Language </h6>
+                                <h6 class="title card-header">Külföldi italok</h6>
                                 <div class="card-body">
                                     <label class="custom-control custom-radio">
                                         <input type="radio" name="language_radio" value="%" checked="" class="custom-control-input control-orange">
-                                        <div class="custom-control-label">Any</div>
+                                        <div class="custom-control-label">Összes</div>
                                     </label>
 
                                     <label class="custom-control custom-radio">
                                         <input type="radio" name="language_radio" value="en" class="custom-control-input">
-                                        <div class="custom-control-label">English</div>
+                                        <div class="custom-control-label">Nagy-Britannia</div>
                                     </label>
 
                                     <label class="custom-control custom-radio">
                                         <input type="radio" name="language_radio" value="fr" class="custom-control-input">
-                                        <div class="custom-control-label">French</div>
+                                        <div class="custom-control-label">Franciaország</div>
                                     </label>
 
                                     <label class="custom-control custom-radio">
                                         <input type="radio" name="language_radio" value="de" class="custom-control-input">
-                                        <div class="custom-control-label">German</div>
+                                        <div class="custom-control-label">Németország</div>
                                     </label>
 
                                     <label class="custom-control custom-radio">
                                         <input type="radio" name="language_radio" value="hu" class="custom-control-input">
-                                        <div class="custom-control-label">Hungarian</div>
+                                        <div class="custom-control-label">Magyarország</div>
                                     </label>
                                 </div><!-- card-body.// -->
-                                <h6 class="title card-header">Publisher </h6>
+                                <h6 class="title card-header">Forgalmazó</h6>
                                 <div class="card-body">
                                     <form method="post" class="pb-3"  action="{{ route('shop') }}">
                                         @csrf
