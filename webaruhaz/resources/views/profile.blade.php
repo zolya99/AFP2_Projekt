@@ -40,7 +40,7 @@
                             </div>
                             <br />
                             <div class="btn-group">
-                                <a href="{{ route('home') }}" class="btn btn-warning"> <!--This button looks different from the others for the purpose of the users not mixing them up-->
+                                <a href="{{ route('profile.edit') }}" class="btn btn-warning"> <!--This button looks different from the others for the purpose of the users not mixing them up-->
                                     Profil szerkesztése</a> <!--This button should enable the logged in user to edit his/her profile-->
                             </div>
                         </div>
