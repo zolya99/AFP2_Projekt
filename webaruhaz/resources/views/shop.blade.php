@@ -13,6 +13,8 @@
             </div>
         </div>
 
+
+
         <div class="container">
 
             <div class="row">
@@ -260,3 +262,7 @@
 
     <script src="{{ URL::asset('js/add_cart.js') }}" type="text/javascript"></script>
 @endsection
+
+<div class="footer" style="position: fixed;left: 0; bottom: 0; width: 100%;background-color: white; color: black;text-align: center;">
+    <p>©Copyright 2021</p>
+</div>
