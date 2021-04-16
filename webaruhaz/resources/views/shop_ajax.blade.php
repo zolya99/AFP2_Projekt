@@ -17,3 +17,25 @@
         </nav>
     </div>
 </header>
+
+<div class="row">
+    @foreach($products as $product)
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <figure class="card card-product-grid">
+                <div class="img-wrap">
+                    <img src="{{ asset("images/book/thumbnails/" . $product>thumbnail) }}"/>
+                    <a class="btn-overlay" href="{{ route('shop.get', $product->id) }}"><i class="fa fa-search-plus"></i> More</a>
+                </div> <!-- img-wrap.// -->
+                <figcaption class="info-wrap">
+                    <div class="fix-height">
+                        <a href="#" class="title">{{\App\Helpers\AppHelper::wrap($product->title, 45)}}</a>
+                        <div class="price-wrap mt-2">
+                            <span class="price">{{$product->price}} Ft</span>
+                        </div> <!-- price-wrap.// -->
+                    </div>
+                    <a onclick="add_to_cart('{{ route('cart.add', $product->id) }}')" class="btn btn-block btn-warning">Add to cart </a>
+                </figcaption>
+            </figure>
+        </div> <!-- col.// -->
+    @endforeach
+</div>
