@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Drink extends Model
 {
+    protected $table = 'products';
+
     public static function search($input){
         return Drink::query()->where('name', 'like', '%' . $input . '%');
     }
