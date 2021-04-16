@@ -72,7 +72,7 @@ class User extends Authenticatable
         $packages = Package::forOrder($order_id);
         $ans = [];
         foreach ($packages as $pack){
-            array_push($ans, ['drink' => Drink::find($pack->drink_id), 'count' => $pack->quantity]);
+            array_push($ans, ['products' => Drink::find($pack->id), 'count' => $pack->quantity]);
         }
         return $ans;
     }
