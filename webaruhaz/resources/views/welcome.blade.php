@@ -20,11 +20,11 @@
             @if (Route::has('login'))
                 <div class="fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}">Kezdőlap</a>
                         <a  href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
+                            {{ __('Kijelentkezés') }}
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                 @csrf
                             </form>
@@ -83,11 +83,11 @@
                         <!-- Left and right controls -->
                         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
-                            <span class="sr-only">Previous</span>
+                            <span class="sr-only"> Előző </span>
                         </a>
                         <a class="right carousel-control" href="#myCarousel" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right"></span>
-                            <span class="sr-only">Next</span>
+                            <span class="sr-only">Következő</span>
                         </a>
                     </div>
                 </div>
