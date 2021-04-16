@@ -35,13 +35,13 @@
                             <p>
 
                             <div class="btn">
-                                <a href="{{ route('home') }}" class="btn btn-warning">Orders
+                                <a href="{{ route('home') }}" class="btn btn-warning">Megrendelések
                                 </a><!--This should redirect the user to his/her orders and show said orders status and list the orders-->
                             </div>
                             <br />
                             <div class="btn-group">
                                 <a href="{{ route('home') }}" class="btn btn-warning"> <!--This button looks different from the others for the purpose of the users not mixing them up-->
-                                    Edit Profile</a> <!--This button should enable the logged in user to edit his/her profile-->
+                                    Profil szerkesztése</a> <!--This button should enable the logged in user to edit his/her profile-->
                             </div>
                         </div>
                     </div>
