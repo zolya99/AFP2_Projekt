@@ -8,11 +8,11 @@ class productContoller extends Controller
 {
     public function index()
     {
-        return view('shop', [ 'products' => \App\Book::all()]);
+        return view('shop', [ 'products' => \App\Drink::all()]);
     }
-    function getProduct($id)
+    public function getProduct($id)
     {
-        $query = "SELECT id, products.name, price, description, onStock, placeOfOrigin FROM products WHERE id = :id";
+        $query = "SELECT FROM products  id, products.name, price, description, onStock, placeOfOrigin WHERE id = :id";
         $params = [
             'id' => $id
         ];
@@ -27,7 +27,7 @@ class productContoller extends Controller
         }
 
     }
-    function addProduct($name, $price, $onStock, $picture, $description) {
+    public function addProduct($name, $price, $onStock, $picture, $description) {
 
         $pictureTargetFile = image.basename($picture['name']);
         $pictureFileType = strtolower(pathinfo($pictureTargetFile,PATHINFO_EXTENSION));
@@ -63,6 +63,21 @@ class productContoller extends Controller
         else {
             return '<p id="alert">Hiba a fájlfeltöltés során!';
         }
+    }
+
+    public function search(Request $request){
+        $PER_PAGE = 15;
+        $drinks = Drink::search($request->all());
+        $current_page = $request->get("toPage") ?? 0;
+        $found = $drinks->count();
+        $drinks / $drinks->skip($current_page * $PER_PAGE)->take($PER_PAGE);
+        $pages = ceil($found / $PER_PAGE);
+        if($current_page < 0){
+            $current_page = 0;
+        }elseif ($current_page > $pages){
+            $current_page = $pages;
+        }
+
     }
 
 }
