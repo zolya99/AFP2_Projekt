@@ -39,7 +39,7 @@
                                     <form method="post" class="pb-3" action="{{ route('shop') }}">
                                         @csrf
                                         <div class="input-group">
-                                            <input type="text" class="form-control" id="search_author" name="search_author" placeholder="Search">
+                                            <input type="text" class="form-control" id="search_author" name="search_author" placeholder="Keresés">
                                             <!--div class="input-group-append">
                                                 <button class="btn btn-light" type="button"><i class="fa fa-search"></i></button>
                                             </div-->
@@ -61,7 +61,7 @@
                                     <form method="post" class="pb-3" action="{{ route('shop') }}">
                                         @csrf
                                         <div class="input-group">
-                                            <input type="text" class="form-control" id="search_genre" name="search_genre" placeholder="Search" />
+                                            <input type="text" class="form-control" id="search_genre" name="search_genre" placeholder="Keresés" />
                                             <input type="hidden" id="rq_main_search" value="{{ $search_field ?? '' }}" />
                                             <!--div class="input-group-append">
                                                 <button class="btn btn-light" type="button"><i class="fa fa-search"></i></button>
@@ -161,14 +161,14 @@
                                     <form method="post" class="pb-3"  action="{{ route('shop') }}">
                                         @csrf
                                         <div class="input-group">
-                                            <input type="text" class="form-control" id="search_publisher" name="search_publisher" placeholder="Search">
+                                            <input type="text" class="form-control" id="search_publisher" name="search_publisher" placeholder="Keresés">
                                             <!--div class="input-group-append">
                                                 <button class="btn btn-light" type="button"><i class="fa fa-search"></i></button>
                                             </div-->
                                         </div>
                                     </form>
                                 </div><!-- card-body.// -->
-                                <h6 class="title card-header">Pages </h6>
+                                <h6 class="title card-header">Árak</h6>
                                 <div class="card-body">
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
