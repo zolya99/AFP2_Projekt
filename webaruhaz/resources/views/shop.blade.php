@@ -21,7 +21,7 @@
                                 <div class="card-body">
                                     <form class="pb-3">
                                         <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Search" id="quick_search">
+                                            <input type="text" class="form-control" placeholder="Keresés" id="quick_search">
                                         </div>
                                     </form>
                                 </div> <!-- card-body.// -->
