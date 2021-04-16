@@ -9,11 +9,11 @@ class productController extends Controller
 {
     public function index()
     {
-        return view('shop');
+        return view('shop', ['products' => \App\Drink::all()]);
     }
     public function getProduct($id)
     {
-        $query = "SELECT FROM products id, products.name, type, price, description, onStock, placeOfOrigin WHERE id = :id";
+        $query = "SELECT FROM id, products.name, type, price, description, onStock, placeOfOrigin FROM products WHERE id = :id";
         $params = [
             'id' => $id
         ];
@@ -69,10 +69,10 @@ class productController extends Controller
 
     public function search(Request $request){
         $PER_PAGE = 15;
-        $drinks = Drink::search($request->all());
+        $products = Drink::search($request->all());
         $current_page = $request->get("toPage") ?? 0;
-        $found = $drinks->count();
-        $drinks / $drinks->skip($current_page * $PER_PAGE)->take($PER_PAGE);
+        $found = $products->count();
+        $products / $products->skip($current_page * $PER_PAGE)->take($PER_PAGE);
         $pages = ceil($found / $PER_PAGE);
         if($current_page < 0){
             $current_page = 0;
