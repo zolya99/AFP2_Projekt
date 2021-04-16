@@ -27,5 +27,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/shop', [App\Http\Controllers\productController::class, 'index'])->name('shop');
 
+Route::get('/profile',[App\Http\Controllers\userController::class, 'index'])->name('profile');
+
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');

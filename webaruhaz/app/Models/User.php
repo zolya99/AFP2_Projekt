@@ -45,6 +45,16 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    public static function testUser() : User
+    {
+        $users = User::query()->where('id', '=', '0');
+        if($users->count() > 0)
+            return $users->get()->last();
+        factory(User::class)->create();
+        return User::all()->last();
+
+    }
+
     public function billing(){
         if($this->billing)
             return Addresses::find($this->billing);
