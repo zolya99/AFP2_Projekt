@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Italok') }}</div>
+                <div class="card-header">{{ __('Rendszerüzenet') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -15,7 +15,7 @@
                     @endif
 
                     {{ __('Sikeres bejelentkezés!') }}
-                       
+
 
                 </div>
             </div>
