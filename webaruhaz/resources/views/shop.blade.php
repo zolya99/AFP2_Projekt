@@ -214,8 +214,34 @@
                 </main> <!-- col.// -->
 
             </div>
+            <div class="container">
+                <div class="row">
+                    @foreach($products as $product)
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <figure class="card card-product-grid">
+                                <div class="img-wrap">
+
+                                </div> <!-- img-wrap.// -->
+                                <figcaption class="info-wrap">
+                                    <div class="fix-height">
+
+                                        <div class="price-wrap mt-2">
+                                            <span>{{$product->picture}}</span>
+                                            <span>{{$product->name}}</span>
+                                            <span>{{$product->description}}</span>
+                                            <span class="price">{{$product->price}} Ft</span>
+                                        </div> <!-- price-wrap.// -->
+                                    </div>
+                                    <a class="btn btn-block btn-warning">Add to cart </a>
+                                </figcaption>
+                            </figure>
+                        </div> <!-- col.// -->
+                    @endforeach
+                </div>
+
 
         </div> <!-- container .//  -->
+        </div>
     </section>
     <!-- ========================= SECTION CONTENT END// ========================= -->
 @endsection
