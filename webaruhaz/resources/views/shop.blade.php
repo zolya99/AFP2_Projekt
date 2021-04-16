@@ -4,6 +4,15 @@
 
     <!-- ========================= SECTION CONTENT ========================= -->
     <section class="section-content padding-y">
+
+
+        <div class="header" style="position: relative;text-align: center;color: white;">
+            <img src="{{url('/image/headerpurplec.jpg')}}" alt="header" style="width:100%; height:250px"/>
+            <div class="header-text" style="color:white; text-align:center;font-family: Nunito; position:absolute; top:50%;left: 50%;transform: translate(-50%, -50%);">
+                <h1>Nunito Italker</h1>
+            </div>
+        </div>
+
         <div class="container">
 
             <div class="row">
