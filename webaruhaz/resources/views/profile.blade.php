@@ -13,19 +13,19 @@
 
                             <div class="divTableBody">
                                 <div class="divTableRow">
-                                    <div class="divTableCell">Name: {{ Auth::user()->name }}</div>
+                                    <div class="divTableCell">Név: {{ Auth::user()->name }}</div>
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">Email: {{ Auth::user()->email }}</div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">Phone: {{Auth::user()->phone_number}}</div>
+                                    <div class="divTableCell">Telefonszám: {{Auth::user()->phone_number}}</div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">Gender: {{Auth::user()->sex }}</div>
+                                    <div class="divTableCell">Nem: {{Auth::user()->sex }}</div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">Date Of Birth: {{ Auth::user()->birth }}</div>
+                                    <div class="divTableCell">Születési dátum: {{ Auth::user()->birth }}</div>
                                 </div>
 
                             </div>
