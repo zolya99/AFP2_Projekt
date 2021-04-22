@@ -13,7 +13,7 @@ class productController extends Controller
     }
     public function getProduct($id)
     {
-        $query = "SELECT FROM id, products.name, type, price, description, onStock, placeOfOrigin FROM products WHERE id = :id";
+        $query = "SELECT FROM id, products.name, type, price, description, onStock, placeOfOrigin, picture FROM products WHERE id = :id";
         $params = [
             'id' => $id
         ];
@@ -46,7 +46,7 @@ class productController extends Controller
             return '<p id="alert">Nem megfelelő fájl formátum!</p>';
         }
         else if (move_uploaded_file($picture["tmp_name"], $pictureTargetFile)) {
-            $query = "INSERT INTO products(name, price, type, onStock, picture, description) VALUES (:name,:price,:type,:onStock,:picture,:description)";
+            $query = "INSERT INTO products(products.name, price, products.type, onStock, picture, description) VALUES (:name,:price,:type,:onStock,:picture,:description)";
             $params = [
                 ':name' => $name,
                 ':price' => $price,
