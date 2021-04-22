@@ -1,18 +1,47 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
 use App\Drink;
 use App\Helpers\AppHelper;
 use App\Order;
 use App\Package;
 
+//use Crypt;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Crypt;
+
+
 class cartController extends Controller
 {
 
     public function index(){
-        return view('cart');
+        $this->getUserId($user_id, $needs_id);
+        $order_id = Order::getCartIDFor($user_id);
+        $packages = Package::forOrder($order_id);
+        $ans = [];
+        foreach ($packages as $pack){
+            array_push($ans, ['drink' => Drink::find($pack->id), 'count' => $pack->onStock]);
+        }
+        if($needs_id)
+            return response(view('Cart.cart_page', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]))->cookie('guest_id', $user_id, 9999);
+        return view('Cart.cart_page', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]);
+    }
+    public function add($id){
+        $this->getUserId($user_id, $needs_id);
+        $order_id = Order::getCartIDFor($user_id);
+        Package::IncrementQuantityOrInsertNew($order_id, $id);
+        if ($needs_id)
+            return response(json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $id]))->cookie('guest_id', $user_id, 9999);
+        return json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $id]);
+    }
+    public function edit($drink_id, $quantity){
+        $this->getUserId($user_id, $needs_id);
+        $order_id = Order::getCartIDFor($user_id);
+        Package::UpdateOrInset($order_id, $drink_id, $quantity);
+        if ($needs_id)
+            return response(json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $drink_id]))->cookie('guest_id', $user_id, 9999);
+        return json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $drink_id]);
     }
     public function getProduct($id)
     {
@@ -31,6 +60,7 @@ class cartController extends Controller
         }
 
     }
+
     public function remove($id){
         $this->getUserId($id);
         $order_id = Order::getCartIDFor($id);
