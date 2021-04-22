@@ -35,10 +35,10 @@ class cartController extends Controller
             return response(json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $id]))->cookie('guest_id', $user_id, 9999);
         return json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $id]);
     }
-    public function edit($drink_id, $quantity){
+    public function edit($drink_id, $onStock){
         $this->getUserId($user_id, $needs_id);
         $order_id = Order::getCartIDFor($user_id);
-        Package::UpdateOrInset($order_id, $drink_id, $quantity);
+        Package::UpdateOrInset($order_id, $drink_id, $onStock);
         if ($needs_id)
             return response(json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $drink_id]))->cookie('guest_id', $user_id, 9999);
         return json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $drink_id]);

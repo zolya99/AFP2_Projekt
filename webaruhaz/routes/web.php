@@ -46,5 +46,9 @@ Route::get('/cart', [App\Http\Controllers\cartController::class, 'index'])->name
 
 Route::get('/cart/remove/{id}', 'CartController@remove')->name('cart.remove');
 
+Route::get('/cart/add/{id}', 'CartController@add')->name('cart.add');
+
+Route::get('/cart/edit/{drink_id}/{quantity}', 'CartController@edit')->name('cart.edit');
+
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
