@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\profileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,9 +31,9 @@ Route::get('/shop', [App\Http\Controllers\productController::class, 'index'])->n
 Auth::routes();
 Route::get('/profile',[App\Http\Controllers\userController::class, 'index'])->name('profile');
 
-Route::get('/profile/edit',[App\Http\Controllers\profileController::class, 'index'])->name('profile_edit');
+Route::get('/profile/edit',[profileController::class, 'index'])->name('profile_edit');
 
-Route::post('/profile/update', 'ProfileController@update')->name('profile.update');
+Route::post('/profile/update', [profileController::class, 'update'])->name('profile.update');
 
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
