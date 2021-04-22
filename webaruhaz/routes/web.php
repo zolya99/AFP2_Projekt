@@ -25,11 +25,13 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Auth::routes();
 
+Route::resource('drink', 'DrinkController');
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/shop', [App\Http\Controllers\productController::class, 'index'])->name('shop');
+Route::get('/shop', [App\Http\Controllers\DrinkController::class, 'index'])->name('shop');
 
-Route::get('/upload',[App\Http\Controllers\productController::class, 'index2'])->name('upload');
+Route::get('/upload',[App\Http\Controllers\DrinkController::class, 'create'])->name('upload');
 
 Route::post('/upload/up',[productController::class, 'addProduct'])->name('upload.up');
 

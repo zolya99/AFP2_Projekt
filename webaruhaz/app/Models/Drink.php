@@ -9,8 +9,9 @@ use App\Http\Controllers\DrinkController;
 class Drink extends Model
 {
     use HasFactory;
+    protected $table = 'drinks';
 
     protected $fillable =['name', 'price', 'type', 'description', 'onStock', 'placeOfOrigin', 'picture'];
 
-    protected $table = 'drinks';
+
 }

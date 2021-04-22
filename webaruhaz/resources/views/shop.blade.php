@@ -234,7 +234,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    @foreach($products as $product)
+                    @foreach($drinks as $d)
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <figure class="card card-product-grid">
                                 <div class="img-wrap">
@@ -242,14 +242,14 @@
                                 </div> <!-- img-wrap.// -->
                                 <figcaption class="info-wrap">
                                     <div class="img-wrap">
-                                        <img src="{{ asset("images/drink/" . $product->picture) }}"/>
+                                        <img src="{{ asset("images/drink/" . $d->picture) }}"/>
 
 
                                         <div class="price-wrap mt-2">
-                                            <span>{{$product->picture}}</span>
-                                            <span>{{$product->name}}</span>
-                                            <span>{{$product->description}}</span>
-                                            <span class="price">{{$product->price}} Ft</span>
+                                            <span>{{$d->picture}}</span>
+                                            <span>{{$d->name}}</span>
+                                            <span>{{$d->description}}</span>
+                                            <span class="price">{{$d->price}} Ft</span>
                                         </div> <!-- price-wrap.// -->
                                     </div>
                                     <a class="btn btn-block btn-warning">Add to cart </a>
