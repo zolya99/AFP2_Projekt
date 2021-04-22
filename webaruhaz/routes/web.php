@@ -44,5 +44,7 @@ Route::post('/profile/update', [profileController::class, 'update'])->name('prof
 
 Route::get('/cart', [App\Http\Controllers\cartController::class, 'index'])->name('cart');
 
+Route::get('/cart/remove/{id}', 'CartController@remove')->name('cart.remove');
+
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
