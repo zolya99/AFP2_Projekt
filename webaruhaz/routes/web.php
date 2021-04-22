@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\productController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\profileController;
 
@@ -28,6 +29,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/shop', [App\Http\Controllers\productController::class, 'index'])->name('shop');
 
+Route::get('/upload',[App\Http\Controllers\productController::class, 'index2'])->name('upload');
+
+Route::post('/upload/up',[productController::class, 'addProduct'])->name('upload.up');
+
 Auth::routes();
 Route::get('/profile',[App\Http\Controllers\userController::class, 'index'])->name('profile');
 
@@ -36,5 +41,6 @@ Route::get('/profile/edit',[profileController::class, 'index'])->name('profile_e
 Route::post('/profile/update', [profileController::class, 'update'])->name('profile.update');
 
 Route::get('/cart', [App\Http\Controllers\cartController::class, 'index'])->name('cart');
+
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
