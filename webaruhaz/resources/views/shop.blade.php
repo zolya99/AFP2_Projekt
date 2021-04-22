@@ -253,7 +253,10 @@
                                         </div> <!-- price-wrap.// -->
                                     </div>
                                     <input type="text" name="quantity" value=0>
-                                    <a class="btn btn-block btn-warning">Kosárba helyezés </a>
+                                    <form>
+                                        <a class="btn btn-block btn-warning">Kosárba helyezés </a>
+                                    </form>
+
                                 </figcaption>
                             </figure>
                         </div> <!-- col.// -->
