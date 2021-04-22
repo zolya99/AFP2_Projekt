@@ -234,7 +234,9 @@
 
                                 </div> <!-- img-wrap.// -->
                                 <figcaption class="info-wrap">
-                                    <div class="fix-height">
+                                    <div class="img-wrap">
+                                        <img src="{{ asset("images/drink/" . $product->picture) }}"/>
+
 
                                         <div class="price-wrap mt-2">
                                             <span>{{$product->picture}}</span>
