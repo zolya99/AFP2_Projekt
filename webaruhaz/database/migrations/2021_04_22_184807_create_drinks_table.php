@@ -21,7 +21,7 @@ class CreateDrinksTable extends Migration
             $table->string('description');
             $table->integer('onStock');
             $table->string('placeOfOrigin');
-            $table->binary('picture');
+            $table->string('picture');
             $table->timestamps();
         });
     }

@@ -45,6 +45,19 @@ class DrinkController extends Controller
             'placeOfOrigin' => 'required',
             'picture' => 'required',
         ]);
+
+        $drinks = new Drink;
+        if ($request->hasFile('picture')) {
+            $file = $request->file('picture');
+            $extension = $file->getClientOriginalExtension(); // getting image extension
+            $filename = time() . '.' . $extension;
+            $file->move('public/images/drink', $filename);
+
+            $request->picture = $filename;
+        }
+
+
+
         $show = Drink::create($validatedData);
 
         return redirect('/drink')->with('success', 'Drink is successfully saved');
@@ -129,4 +142,7 @@ class DrinkController extends Controller
         }
 
     }*/
+
+
+
 }
