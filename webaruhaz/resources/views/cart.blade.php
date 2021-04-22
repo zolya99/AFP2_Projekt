@@ -18,6 +18,20 @@
             </div>
         </div>
 
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="float-right">
+                    <label for="total">Total:</label>
+                    <input type="number" id="total" placeholder = "totalprice"  class="form-control" readonly ><br>
+                    <button type="submit" form="post_form" style="background-color:purple; border-color:purple" class="btn btn-outline-warning form-control">Buy</button>
+                </div>
+            </div>
+        </div>
+            <section class="section-pagetop bg">
+                <div class="container">
+                    <h2 class="title-page">Your cart is currently empty.</h2>
+                </div>
+            </section>
         <div class="footer" style="position: fixed;left: 0; bottom: 0; width: 100%;background-color: white; color: black;text-align: center;">
             <p>©Copyright 2021</p>
         </div>
