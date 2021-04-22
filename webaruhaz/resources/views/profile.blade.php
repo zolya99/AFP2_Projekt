@@ -40,12 +40,12 @@
                     </svg> {{ Auth::user()->birth }}
                 </p>
                 <div class="btn">
-                    <a href="{{ route('home') }}" class="btn btn-warning"style="background-color: purple;border-color: #6574cd;">Megrendelések
+                    <a href="{{ route('home') }}" class="btn btn-warning"style="background-color: purple;border-color: #6574cd;color:white;">Megrendelések
                     </a>
                 </div>
                 <br />
                 <div class="btn-group">
-                    <a href="{{ route('profile_edit') }}" class="btn btn-warning" style="background-color: purple; border-color: #6574cd;">
+                    <a href="{{ route('profile_edit') }}" class="btn btn-warning" style="background-color: purple; border-color: #6574cd; color:white;">
                         Profil szerkesztése</a>
                 </div>
             </div>
