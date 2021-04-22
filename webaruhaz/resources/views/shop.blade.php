@@ -32,7 +32,7 @@
                             <header class="card-header">
                                 <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
                                     <i class="icon-control orange fa fa-chevron-down"></i>
-                                    <h6 class="title">Gyors keresés
+                                    <h6 class="title" style="color:black;">Gyors keresés
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                                         </svg>
@@ -53,7 +53,7 @@
                             <header class="card-header">
                                 <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="false" class="">
                                     <i class="icon-control orange fa fa-chevron-down"></i>
-                                    <h6 class="title">Italok
+                                    <h6 class="title"  style="color:black;">Italok
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sunglasses" viewBox="0 0 16 16">
                                             <path d="M3 5a2 2 0 0 0-2 2v.5H.5a.5.5 0 0 0 0 1H1V9a2 2 0 0 0 2 2h1a3 3 0 0 0 3-3 1 1 0 1 1 2 0 3 3 0 0 0 3 3h1a2 2 0 0 0 2-2v-.5h.5a.5.5 0 0 0 0-1H15V7a2 2 0 0 0-2-2h-2a2 2 0 0 0-1.888 1.338A1.99 1.99 0 0 0 8 6a1.99 1.99 0 0 0-1.112.338A2 2 0 0 0 5 5H3zm0 1h.941c.264 0 .348.356.112.474l-.457.228a2 2 0 0 0-.894.894l-.228.457C2.356 8.289 2 8.205 2 7.94V7a1 1 0 0 1 1-1z"/>
                                         </svg>
@@ -79,7 +79,7 @@
                             <header class="card-header">
                                 <a href="#" data-toggle="collapse" data-target="#collapse_3" aria-expanded="false" class="">
                                     <i class="icon-control orange fa fa-chevron-down"></i>
-                                    <h6 class="title">Ital fajták
+                                    <h6 class="title"  style="color:black;">Ital fajták
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
                                             <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
                                         </svg>
@@ -133,7 +133,7 @@
                             <header class="card-header" >
                                 <a href="#" data-toggle="collapse" data-target="#collapse_4" aria-expanded="false" class="">
                                     <i class="icon-control orange fa fa-chevron-down"></i>
-                                    <h6 class="title">Ár
+                                    <h6 class="title" style="color:black;">Ár
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
                                             <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
                                         </svg>
@@ -159,7 +159,7 @@
                             <header class="card-header">
                                 <a href="#" data-toggle="collapse" data-target="#collapse_6" aria-expanded="false" class="">
                                     <i class="icon-control orange fa fa-chevron-down "></i>
-                                    <h6 class="title">További szűrők
+                                    <h6 class="title" style="color:black;">További szűrők
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel-fill" viewBox="0 0 16 16">
                                             <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2z"/>
                                         </svg>
@@ -254,7 +254,7 @@
                                     </div>
                                     <input type="text" name="quantity" value=0>
                                     <form>
-                                        <a class="btn btn-block btn-warning">Kosárba helyezés </a>
+                                        <a class="btn btn-block btn-warning" style="background-color: purple; color:black;">Kosárba helyezés </a>
                                     </form>
 
                                 </figcaption>
