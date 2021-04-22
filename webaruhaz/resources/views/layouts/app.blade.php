@@ -60,6 +60,7 @@
                                 <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item-text" href="{{route("shop")}}">Üzlet</a>
                                     <a class="dropdown-item-text" href="{{route("profile")}}">Profil</a>
+                                    <a class="dropdown-item-text" href="{{route("upload")}}">Admin felület</a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
