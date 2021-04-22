@@ -50,5 +50,9 @@ Route::get('/cart/add/{id}', 'CartController@add')->name('cart.add');
 
 Route::get('/cart/edit/{drink_id}/{quantity}', 'CartController@edit')->name('cart.edit');
 
+Route::get('order', 'OrderController@index')->name('orders');
+Route::get('order/place', 'OrderController@place')->name('orders.place');
+Route::post('order/store', 'OrderController@store')->name('orders.store');
+
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
