@@ -9,7 +9,7 @@
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('profile.edit') }}">
-                            
+
                         </form>
                     </div>
                 </div>

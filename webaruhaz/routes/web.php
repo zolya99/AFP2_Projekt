@@ -30,6 +30,7 @@ Route::get('/shop', [App\Http\Controllers\productController::class, 'index'])->n
 Auth::routes();
 Route::get('/profile',[App\Http\Controllers\userController::class, 'index'])->name('profile');
 Route::get('/profile/edit', 'ProfileController@edit')->name('profile.edit');
+Route::post('/profile/edit', 'ProfileController@edit')->name('profile.edit');
 Route::post('/profile/update', 'ProfileController@update')->name('profile.update');
 
 
