@@ -252,7 +252,11 @@
                                             <span class="price">{{$d->price}} Ft</span>
                                         </div> <!-- price-wrap.// -->
                                     </div>
-                                    <a class="btn btn-block btn-warning">Add to cart </a>
+                                    <input type="text" name="quantity" value=0>
+                                    <form>
+                                        <a class="btn btn-block btn-warning">Kosárba helyezés </a>
+                                    </form>
+
                                 </figcaption>
                             </figure>
                         </div> <!-- col.// -->
