@@ -37,6 +37,22 @@ class cartController extends Controller
         Package::DeleteWhere($order_id, $id);
         return redirect('cart');
     }
+    public function getUserId(&$user_id, &$needs_id): void
+    {
+        if (Auth::check()) {
+            $user_id = Auth::id();
+        } else {
+            $user_id = Cookie::get('guest_id');
+            if(strlen($user_id) > 10){
+                $user_id = Crypt::decryptString($user_id);
+            }
+        }
+        $needs_id = false;
+        if (!$user_id) {
+            $needs_id = true;
+            $user_id = AppHelper::generateUserID();
+        }
+    }
 
 }
 ?>
