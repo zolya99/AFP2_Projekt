@@ -2,19 +2,20 @@
 
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
+use App\Http\Controllers\AppHelper;
 
 
 class profileController
 {
     public function index(){
-        return view('profile_edit');
-    }
-
-    public function edit(){
         if(!Auth::check())
             abort(403);
-        return AppHelper::viewWithGuestId('profile.editprofile', ['user'=>Auth::user()]);
+        return view('profile_edit', ['user'=>Auth::user()]);
     }
+
+
 
     public function update(Request $request){
         if(!Auth::check())
@@ -22,8 +23,9 @@ class profileController
         $user = Auth::user();
         $user->name=$request->get('name');
         $user->email=$request->get('email');
-        $user->phone_number=$request->get('phone');
-        $user->birth=$request->get('dateofbirth');
+        $user->phone_number=$request->get('phone_number');
+        $user->sex=$request->get('sex');
+        $user->birth=$request->get('birth');
         $user->save();
         $user->refresh();
         Auth::user()->refresh();
