@@ -11,6 +11,11 @@ class productController extends Controller
     {
         return view('shop', ['products' => \App\Drink::all()]);
     }
+
+    public function index2()
+    {
+        return view('upload', ['products' => \App\Drink::all()]);
+    }
     public function getProduct($id)
     {
         $query = "SELECT FROM id, products.name, type, price, description, onStock, placeOfOrigin, picture FROM products WHERE id = :id";
