@@ -6,10 +6,8 @@ namespace App\Http\Controllers;
 
 class profileController
 {
-    public function show(){
-        if(!Auth::check())
-            abort(403);
-        return AppHelper::viewWithGuestId('profile.profile', ['user'=>Auth::user()]);
+    public function index(){
+        return view('profile_edit');
     }
 
     public function edit(){
