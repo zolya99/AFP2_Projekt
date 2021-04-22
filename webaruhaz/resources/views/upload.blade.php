@@ -9,7 +9,7 @@
                     <div class="card-header">{{ __('Adatok frissítése') }}</div>
 
                     <div class="card-body">
-                        <form method="POST" action="{{ route('upload.up') }}">
+                        <form method="POST" action="{{ route('drink.store') }}">
                             @csrf
 
                                 <div class="divTableBody">
@@ -26,20 +26,20 @@
                                         <input type="text" name="type" value="{{ ''}}">
                                     </div>
                                     <div class="divTableRow">
-                                        <label for="address" class="col-md-4 col-form-label text-md-right">{{ __('Készleten') }}</label>
-                                        <input type="text" name="onStock" value="{{ ''}}">
+                                        <label for="address" class="col-md-4 col-form-label text-md-right">{{ __('Leírás') }}</label>
+                                        <input type="text" name="description" value="{{ ''}}">
                                     </div>
                                     <div class="divTableRow">
-                                        <label for="address" class="col-md-4 col-form-label text-md-right">{{ __('Kép') }}</label>
-                                        <input type="file" name="picture" value="{{'' }}">
+                                        <label for="address" class="col-md-4 col-form-label text-md-right">{{ __('Készleten') }}</label>
+                                        <input type="text" name="onStock" value="{{'' }}">
                                     </div>
                                     <div class="divTableRow">
                                         <label for="address" class="col-md-4 col-form-label text-md-right">{{ __('Származási hely') }}</label>
                                         <input type="text" name="placeOfOrigin" value="{{'' }}">
                                     </div>
                                     <div class="divTableRow">
-                                        <label for="address" class="col-md-4 col-form-label text-md-right">{{ __('Leírás') }}</label>
-                                        <input type="text" name="description" value="{{'' }}">
+                                        <label for="address" class="col-md-4 col-form-label text-md-right">{{ __('Kép') }}</label>
+                                        <input type="file" name="picture" value="{{'' }}">
                                     </div>
 
                                     <div class="form-group row mb-0">
