@@ -40,6 +40,7 @@ Route::get('/profile/edit',[profileController::class, 'index'])->name('profile_e
 
 Route::post('/profile/update', [profileController::class, 'update'])->name('profile.update');
 
+Route::get('/cart', [App\Http\Controllers\cartController::class, 'index'])->name('cart');
 
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
