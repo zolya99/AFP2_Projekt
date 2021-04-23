@@ -51,9 +51,8 @@ class DrinkController extends Controller
             $file = $request->file('picture');
             $extension = $file->getClientOriginalExtension(); // getting image extension
             $filename = time() . '.' . $extension;
-            $file->move('public/images/drink', $filename);
+            $file->move('image/drink', $filename);
 
-            $request->picture = $filename;
         }
 
 
@@ -109,6 +108,7 @@ class DrinkController extends Controller
     {
         //
     }
+
 
     /*public function getProduct($id)
     {
