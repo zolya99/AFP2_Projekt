@@ -238,11 +238,11 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <figure class="card card-product-grid">
                                 <div class="img-wrap">
-                                    <img src="{{$d['picture']}}"/>
+
                                 </div> <!-- img-wrap.// -->
                                 <figcaption class="info-wrap">
                                     <div class="img-wrap">
-
+                                        <img src="{{ asset('/image/drink/'.$d->picture) }}" alt="Kép helye">
 
 
                                         <div class="price-wrap mt-2">
