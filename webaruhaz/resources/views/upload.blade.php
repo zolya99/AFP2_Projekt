@@ -23,7 +23,7 @@
                     <div class="card-header">{{ __('Adatok frissítése') }}</div>
 
                     <div class="card-body">
-                        <form method="POST" action="{{ route('drink.store') }}">
+                        <form method="POST" action="{{ route('drink.store') }}" enctype="multipart/form-data">
                             @csrf
 
                                 <div class="divTableBody">
@@ -59,7 +59,7 @@
                                     <div class="form-group row mb-0">
                                         <div class="col-md-6 offset-md-4">
                                             <button type="submit" class="btn btn-primary" style="background-color: purple">
-                                                {{ __('Frissítés') }}
+                                                {{ __('Feltöltés') }}
                                             </button>
                                         </div>
                                     </div>
