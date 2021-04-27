@@ -1,20 +1,16 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Drink;
-use App\Helpers\AppHelper;
-use App\Order;
-use App\Package;
 
-//use Crypt;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Cookie;
-use Illuminate\Support\Facades\Crypt;
-
+use Illuminate\Http\Request;
 
 class cartController extends Controller
 {
-
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index(){
         $this->getUserId($user_id, $needs_id);
         $order_id = Order::getCartIDFor($user_id);
@@ -27,6 +23,12 @@ class cartController extends Controller
             return response(view('Cart.cart_page', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]))->cookie('guest_id', $user_id, 9999);
         return view('Cart.cart_page', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]);
     }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function add($id){
         $this->getUserId($user_id, $needs_id);
         $order_id = Order::getCartIDFor($user_id);
@@ -60,7 +62,6 @@ class cartController extends Controller
         }
 
     }
-
     public function remove($id){
         $this->getUserId($id);
         $order_id = Order::getCartIDFor($id);
@@ -83,6 +84,4 @@ class cartController extends Controller
             $user_id = AppHelper::generateUserID();
         }
     }
-
 }
-?>
