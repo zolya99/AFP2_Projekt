@@ -48,9 +48,21 @@ class DrinkController extends Controller
 
         $drinks = new Drink;
         if ($request->hasFile('picture')) {
+            //$request->picture->store('drink', 'public');
+            /*$drinks = new Drink([
+                'name' => $request->get('name'),
+                'price' => $request->get('price'),
+                'type' => $request->get('type'),
+                'description' => $request->get('description'),
+                'onStock' => $request->get('onStock'),
+                'placeOfOrigin' => $request->get('placeOfOrigin'),
+                'picture' => $request->picture->hashName()
+
+            ]);
+            $drinks->save();*/
             $file = $request->file('picture');
             $extension = $file->getClientOriginalExtension(); // getting image extension
-            $filename = time() . '.' . $extension;
+            $filename = $file->hashName();
             $file->move('image/drink', $filename);
 
         }
