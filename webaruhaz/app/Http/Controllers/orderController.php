@@ -6,11 +6,11 @@ use App\Addresses;
 use App\Helpers\AppHelper;
 use App\Order;
 use App\Package;
-use App\User;
+use App\Models\User;
 use Faker\Provider\Address;
 use Illuminate\Http\Request;
 
-class OrderController extends Controller
+class orderController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -83,7 +83,7 @@ class OrderController extends Controller
         }
 
         return AppHelper::viewWithGuestId('order.place', [
-            'order_id' => $order_id,
+            'order_id' => $order_id
         ]);
     }
 
