@@ -13,5 +13,9 @@ class Drink extends Model
 
     protected $fillable =['name', 'price', 'type', 'description', 'onStock', 'placeOfOrigin', 'picture'];
 
+    public static function find($id)
+    {
+    }
+
 
 }
