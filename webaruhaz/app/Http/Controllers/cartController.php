@@ -1,8 +1,15 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Helpers\AppHelper;
 
-use Illuminate\Http\Request;
+//use Crypt;
+use App\Models\Drink;
+use App\Order;
+use Facade\Ignition\Support\Packagist\Package;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Crypt;
 
 class cartController extends Controller
 {
@@ -13,7 +20,7 @@ class cartController extends Controller
      */
     public function index(){
         $this->getUserId($user_id, $needs_id);
-        $order_id = Order::getCartIDFor($user_id);
+        $order_id = Order::getCartIdFor($user_id);
         $packages = Package::forOrder($order_id);
         $ans = [];
         foreach ($packages as $pack){
