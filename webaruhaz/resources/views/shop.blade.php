@@ -247,12 +247,13 @@
 
                                         <div class="price-wrap mt-2">
 
-                                            <span>{{$d->name}}</span>
-                                            <span>{{$d->description}}</span>
-                                            <span class="price">{{$d->price}} Ft</span>
+                                            <span>{{"Név:"}} {{$d->name}}</span>
+                                            <p><span>{{"Leírás:"}} {{$d->description}}</span></p>
+
                                         </div> <!-- price-wrap.// -->
+                                        <span class="price">{{"Ár:"}}  {{$d->price}} Ft</span>
                                     </div>
-                                    <input type="text" name="quantity" value=0>
+                                    <input type="text" name="onStock" value=0>
                                     <form>
                                         <a class="btn btn-block btn-warning" style="background-color: purple; color:black;">Kosárba helyezés </a>
                                     </form>
