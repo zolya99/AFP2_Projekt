@@ -1,94 +1,111 @@
 <?php
 
-namespace App\Models;
-use App\Http\Controllers\DrinkController;
-use App\Http\Controllers\orderController;
+namespace App;
 
-if(!array_key_exists('ID', $_GET) || empty($_GET['ID'])) {
-    header('Location: index.php');
+use App\Helpers\AppHelper;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
+class Order extends Model
+{
+    public $incrementing = false; //NEM INTEGER AZ ID
+
+    /**
+     * @param $user_id int User owning the cart
+     * @return string Cart id
+     */
+    public static function getCartIDFor($user_id) : string
+    {
+        $order = Order::query()->where('user_id', '=', $user_id)->where('status', '=', 0)->get();
+        if ($order->count() == 0){
+            self::CreateCart($user_id);
+        }
+        else{
+            $order = $order[0]->id;
+        }
+        return $order;
+    }
+
+    /**
+     * @param int $user_id
+     * @return bool
+     */
+    public static function CreateCart($user_id): bool
+    {
+        if(!is_int($user_id))
+            $user_id = User::whoami();
+        $billing = 0;
+        $shipping = 0;
+        if(Auth::check()){
+            if(!empty(Auth::user()->billing()))
+                $billing = Auth::user()->billing()->id;
+            if(!empty(Auth::user()->shipping()))
+                $shipping = Auth::user()->shipping()->id;
+        }
+        $order_id = AppHelper::generateOrderID();
+        return DB::insert('INSERT INTO `orders` (`id`, `user_id`, `billing`, `shipping`, `status`) VALUES (:gen_id, :user_id, :billing, :shipping, 0)',
+            [
+                'gen_id' => $order_id,
+                'user_id' => $user_id,
+                'billing' => $billing,
+                'shipping' => $shipping,
+            ]
+        );
+    }
+
+    public static function emptyForTest()
+    {
+        $order_id = Order::query()->where('user_id', '=', 0);
+        if($order_id->count() == 0)
+            return true;
+        else{
+            $order_id = $order_id->get()[0]->id;
+            DB::delete('DELETE FROM `packages` WHERE `order_id` = :order_id', ['order_id' => $order_id]);
+            return DB::delete('DELETE FROM `orders` WHERE user_id = 0');
+        }
+    }
+
+    /**
+     * @param int|null $whoami
+     * @return Collection
+     */
+    public static function ofUser(?int $whoami)
+    {
+        return Order::query()->where('user_id', '=', $whoami)->where('status', '<>', 0)->get();
+    }
+
+    /**
+     * Create new order
+     * @param int|null $user_id
+     * @param int|null $billing
+     * @param int|null $shipping
+     * @param int $status
+     * @return string
+     */
+    public static function create(?int $user_id, int $billing = null, int $shipping = null, int $status = 1)
+    {
+        $id = AppHelper::generateOrderID();
+        DB::insert('INSERT INTO orders (id, user_id, billing, shipping, status) VALUES (:id, :user_id, :billing, :shipping, :status)', [
+            'id' => $id,
+            'user_id' => $user_id,
+            'billing' => $billing,
+            'shipping' => $shipping,
+            'status' => $status,
+        ]);
+        return $id;
+    }
+
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
+
+    public function billing(){
+        return $this->belongsTo(Addresses::class, "billing");
+    }
+
+    public function shipping(){
+        return $this->belongsTo(Addresses::class, "shipping");
+    }
 }
-$order = getOrderById($_GET['ID']);
-$packages = getPackagesByOrder($_GET['ID']);
-
-?>
-
-<?php if (empty($order)) : ?>
-    <?php  return view('home'); ?>
-<?php else: ?>
-    <div class = "container">
-        <h2> Megrendelés #<?=$order['id']; ?></h2>
-        <h3>Megrendelő adatai:</h3>
-        <table class = "table table-striped">
-            <tbody>
-            <tr>
-                <td>Név: </td>
-                <td><?=$order['first_name']." ".$order["last_name"]; ?></td>
-            </tr>
-            <tr>
-                <td>Email cím: </td>
-                <td><?=$order['email']; ?></td>
-            </tr>
-            <tr>
-                <td>Utca, házszám: </td>
-                <td><?=$order['address']; ?></td>
-            </tr>
-            <tr>
-                <td>Irányítószám: </td>
-                <td><?=$order['zip']; ?></td>
-            </tr>
-            <tr>
-                <td>Város: </td>
-                <td><?=$order['city']; ?></td>
-            </tr>
-            <tr>
-                <td>Ország: </td>
-                <td><?=$order['country']; ?></td>
-            </tr>
-            <tr>
-                <td>Megrendelés időpontja: </td>
-                <td><?=$order['time']; ?></td>
-            </tr>
-            </tbody>
-        </table>
-
-        <h3>Termékek:</h3>
-        <table class = "table">
-            <thead class="thead-light">
-            <tr>
-                <th>#</th>
-                <th>Termék</th>
-                <th>Mennyiség</th>
-                <th>Ár</th>
-            </tr>
-            </thead>
-            <tbody>
-            <?php $i =0; ?>
-            <?php $count = 0; ?>
-            <?php $total = 0; ?>
-            <?php foreach ($packages as $item): ?>
-            <?php
-            ?>
-            <tr>
-                <?php $i++ ?>
-                <?php $total += (int)$item['onStock'] * (int)$item['price']; ?>
-                <?php $count += (int)$item['onStock']; ?>
-                <th scope="row"><?=$i ?></th>
-                <td><a href="index.php?P=product&ID=<?=$item['drink_id']; ?>"><?=$item['type'].' '.$item['name']; ?></a></td>
-                <td><?=$item['onStock']; ?></td>
-                <td><?=number_format((int)$item['onStock'] * (int)$item['price']).' Ft'; ?></td>
-                <?php endforeach; ?>
-            </tr>
-            </tbody>
-            <tfoot>
-            <tr>
-                <td></td>
-                <td>Összesen:</td>
-                <td><?=$count; ?> </td>
-                <td><?=number_format($total) .' Ft'; ?> </td>
-                <td></td>
-            </tr>
-            </tfoot>
-        </table>
-    </div>
-
-<?php endif; ?>
