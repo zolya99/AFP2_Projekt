@@ -5,8 +5,8 @@ use App\Helpers\AppHelper;
 
 //use Crypt;
 use App\Models\Drink;
-use App\Order;
-use Facade\Ignition\Support\Packagist\Package;
+use App\Models\Order;
+use App\Models\Package;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Crypt;
