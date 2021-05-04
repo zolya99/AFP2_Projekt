@@ -25,7 +25,7 @@ class cartController extends Controller
         $packages = Package::forOrder($order_id);
         $ans = [];
         foreach ($packages as $pack){
-            array_push($ans, ['drink' => Drink::find($pack->id), 'count' => $pack->onStock]);
+            return view('cartController@show');
         }
         if($needs_id)
             return response(view('cart', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]))->cookie('guest_id', $user_id, 9999);

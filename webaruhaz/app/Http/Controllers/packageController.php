@@ -4,13 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Models\Package;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class packageController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return void
      */
     public function index()
     {
@@ -20,7 +21,7 @@ class packageController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return void
      */
     public function create()
     {
@@ -30,19 +31,19 @@ class packageController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return void
      */
     public function store(Request $request)
     {
-        //
+        $package = new Package;
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Package  $package
-     * @return \Illuminate\Http\Response
+     * @param Package $package
+     * @return void
      */
     public function show(Package $package)
     {
@@ -52,8 +53,8 @@ class packageController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Package  $package
-     * @return \Illuminate\Http\Response
+     * @param Package $package
+     * @return void
      */
     public function edit(Package $package)
     {
@@ -63,9 +64,9 @@ class packageController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Package  $package
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @param Package $package
+     * @return void
      */
     public function update(Request $request, Package $package)
     {
@@ -75,8 +76,8 @@ class packageController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Package  $package
-     * @return \Illuminate\Http\Response
+     * @param Package $package
+     * @return void
      */
     public function destroy(Package $package)
     {
