@@ -7,6 +7,7 @@ use App\Helpers\AppHelper;
 use App\Models\Drink;
 use App\Models\Order;
 use App\Models\Package;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Crypt;
@@ -16,7 +17,7 @@ class cartController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function index(){
         $this->getUserId($user_id, $needs_id);
@@ -27,14 +28,14 @@ class cartController extends Controller
             array_push($ans, ['drink' => Drink::find($pack->id), 'count' => $pack->onStock]);
         }
         if($needs_id)
-            return response(view('Cart.cart_page', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]))->cookie('guest_id', $user_id, 9999);
-        return view('Cart.cart_page', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]);
+            return response(view('cart', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]))->cookie('guest_id', $user_id, 9999);
+        return view('cart', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]);
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function add($id){
         $this->getUserId($user_id, $needs_id);

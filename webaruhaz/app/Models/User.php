@@ -100,10 +100,10 @@ class User extends Authenticatable
         if (Auth::check()) {
             $user_id = Auth::id();
         } else {
-            $user_id = Cookie::get('guest_id');
+            /*$user_id = Cookie::get('guest_id');
             if(strlen($user_id) > 10){
                 $user_id = Crypt::decryptString($user_id);
-            }
+            }*/
         }
         return $user_id ?? AppHelper::generateUserID();
     }

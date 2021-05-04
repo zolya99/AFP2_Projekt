@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Addresses;
+
 use App\Helpers\AppHelper;
-use App\Order;
-use App\Package;
+use App\Models\Addresses;
+use App\Models\Order;
+use App\Models\Package;
 use App\Models\User;
-use Faker\Provider\Address;
 use Illuminate\Http\Request;
 
 class orderController extends Controller
