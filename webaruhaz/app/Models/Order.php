@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\DB;
 class Order extends Model
 {
     public $incrementing = false; //NEM INTEGER AZ ID
+    protected $table = 'orders';
+
 
     /**
      * @param $user_id int User owning the cart

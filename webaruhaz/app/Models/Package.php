@@ -2,14 +2,13 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Support\Facades\Auth;
 
 class Package extends Model
 {
+    protected $table ='packages';
     public static function forOrder(string $order_id)
     {
         return DB::table('packages')->where('order_id', 'like', "%$order_id%")->get();
