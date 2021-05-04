@@ -1,9 +1,12 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
-use DB;
+
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class Addresses extends Model
 {
@@ -29,6 +32,8 @@ class Addresses extends Model
         ]);
         return DB::getPdo()->lastInsertId();
     }
-
+    public static function find($id)
+    {
+    }
 
 }
