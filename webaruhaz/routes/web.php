@@ -44,11 +44,11 @@ Route::post('/profile/update', [profileController::class, 'update'])->name('prof
 
 Route::get('/cart', [App\Http\Controllers\cartController::class, 'index'])->name('cart');
 
-Route::get('/cart/remove/{id}', 'CartController@remove')->name('cart.remove');
+Route::get('/cart/remove/{id}', 'cartController@remove')->name('cart.remove');
 
-Route::get('/cart/add/{id}', 'CartController@add')->name('cart.add');
+Route::get('/cart/add/{id}', [App\Http\Controllers\cartController::class, 'add'])->name('cart.add');
 
-Route::get('/cart/edit/{drink_id}/{quantity}', 'CartController@edit')->name('cart.edit');
+Route::get('/cart/edit/{drink_id}/{quantity}', 'cartController@edit')->name('cart.edit');
 
 Route::get('order', 'OrderController@index')->name('orders');
 Route::get('order/place', 'OrderController@place')->name('orders.place');
