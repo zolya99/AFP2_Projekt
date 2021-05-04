@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateOrdersTable extends Migration
+class CreatePackagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class CreateOrdersTable extends Migration
      */
     public function up()
     {
-        Schema::create('orders', function (Blueprint $table) {
-            $table->string('id')->primary();
-            $table->string('user_id');
-            $table->integer('billing')->nullable();
-            $table->integer('shipping')->nullable();
-            $table->tinyInteger('status')->default(0);
+        Schema::create('packages', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('order_id');
+            $table->unsignedBigInteger('book_id');
+            $table->unsignedInteger('quantity')->default(1);
             $table->timestamp('created_at')->useCurrent(); //Kötelező Laravel miatt
             $table->timestamp('updated_at')->useCurrent(); //Kötelező Laravel miatt
         });
@@ -31,6 +30,6 @@ class CreateOrdersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('orders');
+        Schema::dropIfExists('packages');
     }
 }
