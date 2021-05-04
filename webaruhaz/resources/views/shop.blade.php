@@ -255,7 +255,7 @@
                                     </div>
                                     <input type="text" name="onStock" value=0>
                                     <form>
-                                        <a class="btn btn-block btn-warning" style="background-color: purple; color:black;">Kosárba helyezés </a>
+                                        <a class="btn btn-block btn-warning" style="background-color: purple; color:black;" action="{{route(cart.add)}}>Kosárba helyezés </a>
                                     </form>
 
                                 </figcaption>
