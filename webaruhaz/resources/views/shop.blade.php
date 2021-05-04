@@ -255,7 +255,7 @@
                                     </div>
                                     <input type="text" name="onStock" value=0>
                                     <form>
-                                        <a class="btn btn-block btn-warning" onclick="add_to_cart('{{route('cart.add', $drink->id)}}')" style="background-color: purple; color:black;">Kosárba helyezés </a>
+                                        <a class="btn btn-block btn-warning" onclick="add_to_cart('{{route('cart.add', $d->id)}}')" style="background-color: purple; color:black;">Kosárba helyezés </a>
                                     </form>
 
                                 </figcaption>
