@@ -53,6 +53,15 @@ class User extends Authenticatable
     /**
      * @var mixed
      */
+    private $billing;
+    /**
+     * @var mixed
+     */
+    private $shipping;
+
+    /**
+     * @var mixed
+     */
 
 
     public static function testUser() : User
