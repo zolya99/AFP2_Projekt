@@ -22,10 +22,11 @@ class cartController extends Controller
     public function index(){
         $this->getUserId($user_id, $needs_id);
         $order_id = Order::getCartIdFor($user_id);
-        $packages = Package::forOrder($order_id);
+        $package = Package::forOrder($order_id);
         $ans = [];
-        foreach ($packages as $pack){
-            return view('cartController@show');
+        foreach ($package as $pack){
+            array_push($ans, ['drink' => Drink::find($pack->name), 'quantity' => $pack->quantity, 'order_id' => $pack->order_id, 'drink_id' => $pack->drink_id ]);
+            //return view('cartController@show');
         }
         if($needs_id)
             return response(view('cart', ['user_id' => $user_id, 'order_id' => $order_id, 'packs' => $ans]))->cookie('guest_id', $user_id, 9999);
@@ -53,9 +54,9 @@ class cartController extends Controller
             return response(json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $drink_id]))->cookie('guest_id', $user_id, 9999);
         return json_encode(['Success' => true, 'Order' => $order_id, 'Drink' => $drink_id]);
     }
-    public function getProduct($id)
+    /*public function getProduct($id)
     {
-        $query = "SELECT FROM id, products.name, type, price, description, onStock, placeOfOrigin, picture FROM products WHERE id = :id";
+        $query = "SELECT FROM id, drinks.name, type, price, description, onStock, placeOfOrigin, picture FROM products WHERE id = :id";
         $params = [
             'id' => $id
         ];
@@ -69,7 +70,7 @@ class cartController extends Controller
             return $record;
         }
 
-    }
+    }*/
     public function remove($id){
         $this->getUserId($id);
         $order_id = Order::getCartIDFor($id);
@@ -91,5 +92,10 @@ class cartController extends Controller
             $needs_id = true;
             $user_id = AppHelper::generateUserID();
         }
+    }
+    public function show($id){
+        $order_id = Order::getCartIDFor($id);
+        $package = Package::forOrder($order_id);
+        return json_encode($package);
     }
 }
