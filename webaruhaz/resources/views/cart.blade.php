@@ -26,30 +26,30 @@
             <table class="table table-borderless text-md-center col-8 table-responsive">
                 <thead>
                 <tr class="border-top">
-                    <th scope="col">Image</th>
-                    <th scope="col">Title</th>
-                    <th scope="col">Piece</th>
-                    <th scope="col">Unit price</th>
-                    <th scope="col">Subtotal</th>
+                    <th scope="col">Ital</th>
+                    <th scope="col">Megrendelés kódja</th>
+                    <th scope="col">Ár</th>
+                    <th scope="col">Mennyiség</th>
                     <th scope="col"></th>
                 </tr>
                 </thead>
                 <tbody>
                 @foreach($packs as $pack)
                     <tr class="bg">
-                        <td scope="row"> <a href="#" class="img-wrap"> </a></td>
+                        <td>
                             <span>{{$pack['drink']}}</span>
+                        </td>
                         <td>
                             <span>{{$pack['order_id']}}</span>
                         </td>
                         <td>
-                            <span>{{$pack['drink_id']}}</span>Ft
+                            <span>{{$pack['price']}}</span>
                         </td>
                         <td>
-                            <span>{{$pack['quantity']}}</span> Ft
+                            <span>{{$pack['quantity']}}</span>
                         </td>
                         <td>
-                            <a href="#">Remove</a>
+                            <a href="{{ route('cart.remove', $pack['drink_id']) }}">Remove</a>
                         </td>
                     </tr>
                 @endforeach
@@ -65,11 +65,6 @@
                 </div>
             </div>
         </div>
-            <section class="section-pagetop bg">
-                <div class="container">
-                    <h2 class="title-page">Your cart is currently empty.</h2>
-                </div>
-            </section>
         <div class="footer" style="position: fixed;left: 0; bottom: 0; width: 100%;background-color: white; color: black;text-align: center;">
             <p>©Copyright 2021</p>
         </div>

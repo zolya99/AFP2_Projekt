@@ -25,7 +25,7 @@ class cartController extends Controller
         $package = Package::forOrder($order_id);
         $ans = [];
         foreach ($package as $pack){
-            array_push($ans, ['drink' => Drink::find($pack->name), 'quantity' => $pack->quantity, 'order_id' => $pack->order_id, 'drink_id' => $pack->drink_id ]);
+            array_push($ans, ['drink' => Drink::find($pack->drink_id), 'quantity' => $pack->quantity, 'order_id' => $pack->order_id, 'drink_id' => $pack->drink_id, 'price' => Drink::findPrice($pack->drink_id)]);
             //return view('cartController@show');
         }
         if($needs_id)
@@ -72,7 +72,6 @@ class cartController extends Controller
 
     }*/
     public function remove($id){
-        $this->getUserId($id);
         $order_id = Order::getCartIDFor($id);
         Package::DeleteWhere($order_id, $id);
         return redirect('cart');
