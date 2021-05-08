@@ -21,7 +21,7 @@
             <form id="post_form" action="{{ route('orders.place') }}" method="get">
                 @csrf
                 <input type="hidden" name="status" value="place" />
-                <input type="hidden" name="order" value="{{ $order_id }}" />
+                <input type="hidden" name="orders" value="{{ $order_id }}" />
             </form>
             <table class="table table-borderless text-md-center col-8 table-responsive">
                 <thead>
@@ -38,20 +38,18 @@
                 @foreach($packs as $pack)
                     <tr class="bg">
                         <td scope="row"> <a href="#" class="img-wrap"> </a></td>
+                            <span>{{$pack['drink']}}</span>
                         <td>
-                            {{ $pack['drink']->title }}
+                            <span>{{$pack['order_id']}}</span>
                         </td>
                         <td>
-                            <input name="quantity_{{ $pack['drink']->id }}" id="quantity_{{ $pack['drink']->id }}" type="number" value ="{{$pack['quantity']}}" min="0" class="form-control form-control-cart" form="post_form">
+                            <span>{{$pack['drink_id']}}</span>Ft
                         </td>
                         <td>
-                            <a id="price_{{ $pack['drink']->id }}">{{ $pack['drink']->price }}</a> Ft
+                            <span>{{$pack['quantity']}}</span> Ft
                         </td>
                         <td>
-                            <div id="sum_price_{{ $pack['drink']->id}}"></div> Ft
-                        </td>
-                        <td>
-                            <a href="{{ route('cart.remove', $pack['drink']->id) }}">Remove</a>
+                            <a href="#">Remove</a>
                         </td>
                     </tr>
                 @endforeach
