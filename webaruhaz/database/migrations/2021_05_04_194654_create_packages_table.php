@@ -16,7 +16,7 @@ class CreatePackagesTable extends Migration
         Schema::create('packages', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('order_id');
-            $table->unsignedBigInteger('book_id');
+            $table->unsignedBigInteger('drink_id');
             $table->unsignedInteger('quantity')->default(1);
             $table->timestamp('created_at')->useCurrent(); //Kötelező Laravel miatt
             $table->timestamp('updated_at')->useCurrent(); //Kötelező Laravel miatt
