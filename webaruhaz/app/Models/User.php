@@ -88,9 +88,9 @@ class User extends Authenticatable
 
     public static function cart(){
         $order_id = Order::getCartIDFor(User::whoami());
-        $packages = Package::forOrder($order_id);
+        $package = Package::forOrder($order_id);
         $ans = [];
-        foreach ($packages as $pack){
+        foreach ($package as $pack){
             array_push($ans, ['products' => Drink::find($pack->id), 'count' => $pack->quantity]);
         }
         return $ans;

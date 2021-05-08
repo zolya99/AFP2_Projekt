@@ -73,11 +73,11 @@ class AppHelper
         return response(view($string, $array));
     }
 
-    public static function getPackages(string $orderId){
+    public static function getPackages(string $order_id){
         $order_id = Order::getCartIDFor(User::whoami());
-        $packages = Package::forOrder($order_id);
+        $package = Package::forOrder($order_id);
         $ans = [];
-        foreach ($packages as $pack){
+        foreach ($package as $pack){
             array_push($ans, ['drink' => Drink::find($pack->drink_id), 'count' => $pack->quantity]);
         }
         return $ans;
