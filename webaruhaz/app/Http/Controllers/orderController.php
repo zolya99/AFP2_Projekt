@@ -89,6 +89,48 @@ class orderController extends Controller
             'order_id' => $order_id
         ]);
     }
+    public function create()
+    {
+        return AppHelper::viewWithGuestId('order.create', ['cart' => User::cart()]);
+    }
 
+    public function show(Order $order)
+    {
+
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param Order $order
+     * @return void
+     */
+    public function edit(Order $order)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param Request $request
+     * @param Order $order
+     * @return void
+     */
+    public function update(Request $request, Order $order)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param Order $order
+     * @return void
+     */
+    public function destroy(Order $order)
+    {
+        //
+    }
 
 }
