@@ -33,8 +33,6 @@ Route::get('/shop', [App\Http\Controllers\DrinkController::class, 'index'])->nam
 
 Route::get('/upload',[App\Http\Controllers\DrinkController::class, 'create'])->name('upload');
 
-Route::post('/upload/up',[productController::class, 'addProduct'])->name('upload.up');
-
 Auth::routes();
 Route::get('/profile',[App\Http\Controllers\userController::class, 'index'])->name('profile');
 
@@ -43,6 +41,8 @@ Route::get('/profile/edit',[profileController::class, 'index'])->name('profile_e
 Route::post('/profile/update', [profileController::class, 'update'])->name('profile.update');
 
 Route::get('/cart', [App\Http\Controllers\cartController::class, 'index'])->name('cart');
+
+Route::get('/cart/show', [App\Http\Controllers\cartController::class, 'show'])->name('cart.show');
 
 Route::get('/cart/remove/{id}', 'cartController@remove')->name('cart.remove');
 
