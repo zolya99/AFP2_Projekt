@@ -62,7 +62,7 @@ class DrinkController extends Controller
             $drinks->save();*/
             $file = $request->file('picture');
             $extension = $file->getClientOriginalExtension(); // getting image extension
-            $filename = $file->hashName();
+            $filename = $file->getFilename();
             $file->move('image/drink', $filename);
 
         }
