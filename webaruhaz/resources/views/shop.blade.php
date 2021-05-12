@@ -206,7 +206,12 @@
                                 </div> <!-- img-wrap.// -->
                                 <figcaption class="info-wrap">
                                     <div class="img-wrap">
-                                        <img src="{{ asset('/storage/drink/'.$d->picture) }}" alt="Kép helye">
+
+                                        <img src="{{ asset("image/drink/$d->picture") }}" alt=""/>
+
+                                        <a href='{{ asset("image/drink/$d->picture") }}'>{{ $d->picture}}</a>
+
+                                        <img src="/image/drink/{{$d->picture}}" />
 
 
                                         <div class="price-wrap mt-2">
