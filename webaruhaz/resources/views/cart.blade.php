@@ -68,7 +68,6 @@
                 <div class="float-right">
                     <label for="total">Összes:</label>
                     <input type="number" id="total" placeholder = "Összesen"  class="form-control" readonly ><br>
-                    <button type="submit" form="post_form" style="background-color:purple; border-color:purple" class="btn btn-outline-warning form-control">Vásárlás</button>
                 </div>
             </div>
         </div>
