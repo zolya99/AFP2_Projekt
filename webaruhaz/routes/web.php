@@ -25,6 +25,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Auth::routes();
 
+Route::resource('upload-files','DrinkController');
 Route::resource('drink', 'DrinkController');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
