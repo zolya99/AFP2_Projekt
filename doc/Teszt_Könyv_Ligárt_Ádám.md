@@ -14,7 +14,7 @@
 | Hozzáadás gomb tesztelése a kosárnak | Ligárt Ádám | 2021.05.12 19:55 | Igen | Sikeresen belehelyezi a kiválasztott terméket a kosárba. |
 | Profil oldal elérése | Ligárt Ádám | 2021.05.12 20:11 | Igen | Helyesen működik, eléri |
 | Profil oldal tesztelése | Ligárt Ádám | 2021.05.12 20:20 | Igen | Nincs |
-| --- | Ligárt Ádám |  |  |  |
+| Főoldal tesztelése | Ligárt Ádám | 2021.05.12 20:40 | Igen | A főoldalon megfelelően történnek az átirányítások, minden gomb működik. |
 | --- | Ligárt Ádám |  |  |  |
 | --- | Ligárt Ádám |  |  |  |
 | --- | Ligárt Ádám |  |  |  |
