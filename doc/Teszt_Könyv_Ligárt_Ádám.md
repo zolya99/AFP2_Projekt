@@ -16,8 +16,8 @@
 | Profil oldal tesztelése | Ligárt Ádám | 2021.05.12 20:20 | Igen | Nincs |
 | Főoldal tesztelése | Ligárt Ádám | 2021.05.12 20:40 | Igen | A főoldalon megfelelően történnek az átirányítások, minden gomb működik. |
 | Welcome oldal tesztelése | Ligárt Ádám | 2021.05.12 20:55 | Igen | A bejelentkezés és a regisztráció gomb megfelelően működik. |
-| Carousel tesztelése az oldalakon| Ligárt Ádám | 2021.05.12 21.22 | Igen | Lapozhatóak, a képek helyesen jelennek benne és jól vannak pozícionálva. |
-| --- | Ligárt Ádám |  |  |  |
+| Carousel tesztelése az oldalakon| Ligárt Ádám | 2021.05.12 21:22 | Igen | Lapozhatóak, a képek helyesen jelennek benne és jól vannak pozícionálva. |
+| Kosár oldal tesztelése | Ligárt Ádám | 2021.05.12 21:48 | Igen | Minden adat helyesen jelenik meg az adatbázisból. |
 | --- | Ligárt Ádám |  |  |  |  |
 | --- | Ligárt Ádám |  |  |   |
 | --- | Ligárt Ádám |  |  |  |
