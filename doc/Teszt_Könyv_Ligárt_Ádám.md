@@ -18,7 +18,7 @@
 | Welcome oldal tesztelése | Ligárt Ádám | 2021.05.12 20:55 | Igen | A bejelentkezés és a regisztráció gomb megfelelően működik. |
 | Carousel tesztelése az oldalakon| Ligárt Ádám | 2021.05.12 21:22 | Igen | Lapozhatóak, a képek helyesen jelennek benne és jól vannak pozícionálva. |
 | Kosár oldal tesztelése | Ligárt Ádám | 2021.05.12 21:48 | Igen | Minden adat helyesen jelenik meg az adatbázisból. |
-| --- | Ligárt Ádám |  |  |  |  |
+| Feltöltés oldal tesztelése | Ligárt Ádám |2021.05.12 22:00  | Igen | Minden adatot helyesen tölt fel az adatbázisba, a képeket is.. |  |
 | --- | Ligárt Ádám |  |  |   |
 | --- | Ligárt Ádám |  |  |  |
 | --- | Ligárt Ádám |  |  |  |
