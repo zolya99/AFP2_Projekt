@@ -6,9 +6,9 @@
 
 | Modul | Név | Idő | Helyesen működik? | Megjegyzés (opcionális) |
 |-------|------|------|--------------------------|-----------|
-| Adatbázis import | Nagy Zoltán | 2021.05.12. | Helyesen működik | - |
-| Adatbázis elérés | Nagy Zoltán | 2021.05.12. | Helyesen működik | - |
-| Főoldal elérése | Nagy Zoltán |  |  |  |
+| Adatbázis import | Nagy Zoltán | 2021.05.12. 22:20 | Helyesen működik | - |
+| Adatbázis elérés | Nagy Zoltán | 2021.05.12. 22:22| Helyesen működik | - |
+| Főoldal elérése | Nagy Zoltán | 2021.05.12 22:29 | Sikeres elérés | - |
 | Kijelentkezés | Nagy Zoltán |  |  |  |
 | Carousel teszt | Nagy Zoltán |  |  |  |
 | Üzlet oldal elérése | Nagy Zoltán |  |  |  |
