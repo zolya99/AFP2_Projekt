@@ -208,12 +208,6 @@
                                     <div class="img-wrap">
 
                                         <img src="{{ asset("image/drink/$d->picture") }}" alt=""/>
-
-                                        <a href='{{ asset("image/drink/$d->picture") }}'>{{ $d->picture}}</a>
-
-                                        <img src="/image/drink/{{$d->picture}}" />
-
-
                                         <div class="price-wrap mt-2">
 
                                             <span>{{"Név:"}} {{$d->name}}</span>
