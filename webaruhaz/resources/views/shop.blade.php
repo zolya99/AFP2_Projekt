@@ -204,19 +204,20 @@
                                 <div class="img-wrap">
 
                                 </div> <!-- img-wrap.// -->
-                                <figcaption class="info-wrap">
-                                    <div class="img-wrap">
+                                <figcaption class="info-wrap" style = "text-align: center;position: center;">
+                                    <div class="img-wrap" style = "text-align: center;position: center;">
 
-                                        <img src="{{ asset("image/drink/$d->picture") }}" alt=""/>
+                                        <img style = "text-align: center;position: center; height: 260px; width:210px" src="{{ asset("image/drink/$d->picture") }}" alt=""/>
                                         <div class="price-wrap mt-2">
 
                                             <span>{{"Név:"}} {{$d->name}}</span>
                                             <p><span>{{"Leírás:"}} {{$d->description}}</span></p>
 
                                         </div> <!-- price-wrap.// -->
-                                        <span class="price">{{"Ár:"}}  {{$d->price}} Ft</span>
+
+                                        <span style = "text-align: center;position: center;" class="price">{{"Ár:"}}  {{$d->price}} Ft</span>
                                     </div>
-                                    <input type="text" name="onStock" value=0>
+                                    <input style = "text-align: center;position: center;" type="text" name="onStock" value=0>
                                     <form>
                                         <a class="btn btn-block btn-warning" href="{{route('cart.add', $d->id)}}" style="background-color: purple; color:black;">Kosárba helyezés </a>
                                     </form>
