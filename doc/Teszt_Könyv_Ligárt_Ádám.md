@@ -19,7 +19,7 @@
 | Carousel tesztelése az oldalakon| Ligárt Ádám | 2021.05.12 21:22 | Igen | Lapozhatóak, a képek helyesen jelennek benne és jól vannak pozícionálva. |
 | Kosár oldal tesztelése | Ligárt Ádám | 2021.05.12 21:48 | Igen | Minden adat helyesen jelenik meg az adatbázisból. |
 | Feltöltés oldal tesztelése | Ligárt Ádám |2021.05.12 22:00  | Igen | Minden adatot helyesen tölt fel az adatbázisba, a képeket is.. |  |
-| --- | Ligárt Ádám |  |  |   |
+| backend funkciók tesztelése | Ligárt Ádám | 2021.05.12 22:22 | Igen | Az egyes controllerek mindegyike hibamentesen lefut. |
 | --- | Ligárt Ádám |  |  |  |
 | --- | Ligárt Ádám |  |  |  |
 | --- | Ligárt Ádám |  |  |  |
