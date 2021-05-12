@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <title>Profil</title>
+    <meta charset="utf-8">
+</head>
+</html>
 @extends('layouts.app')
 @section('content')
     <div class ="bg"
