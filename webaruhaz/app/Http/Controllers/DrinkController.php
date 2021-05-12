@@ -32,7 +32,7 @@ class DrinkController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function store(Request $request)
     {
@@ -43,35 +43,23 @@ class DrinkController extends Controller
             'description' => 'required',
             'onStock' => 'required',
             'placeOfOrigin' => 'required',
-            'picture' => 'required',
+            'picture' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
+        $picture= new Drink ($request->input()) ;
+        if($file = $request->hasFile('picture')) {
 
-        $drinks = new Drink;
-        if ($request->hasFile('picture')) {
-            //$request->picture->store('drink', 'public');
-            /*$drinks = new Drink([
-                'name' => $request->get('name'),
-                'price' => $request->get('price'),
-                'type' => $request->get('type'),
-                'description' => $request->get('description'),
-                'onStock' => $request->get('onStock'),
-                'placeOfOrigin' => $request->get('placeOfOrigin'),
-                'picture' => $request->picture->hashName()
+            $file = $request->file('picture') ;
 
-            ]);
-            $drinks->save();*/
-            $file = $request->file('picture');
-            $extension = $file->getClientOriginalExtension(); // getting image extension
-            $filename = $file->getFilename();
-            $file->move('image/drink', $filename);
-
+            $fileName = $file->getClientOriginalName() ;
+            $destinationPath = public_path().'/image/drink' ;
+            $file->move($destinationPath,$fileName);
+            $picture->picture = $fileName ;
         }
+        $picture->save() ;
+        return redirect()->route('upload-files.index')
+            ->with('success','You have successfully uploaded your files');
 
 
-
-        $show = Drink::create($validatedData);
-
-        return redirect('/drink')->with('success', 'Drink is successfully saved');
     }
 
     /**
