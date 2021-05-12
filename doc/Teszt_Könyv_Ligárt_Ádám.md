@@ -6,9 +6,9 @@
 
 | Modul | Név | Idő | Helyesen működik? | Megjegyzés (opcionális) |
 |-------|------|------|--------------------------|-----------|
-| --- | Ligárt Ádám |  | |  |
-| --- | Ligárt Ádám |  |  | |
-| --- | Ligárt Ádám |  |  |  |
+| Kijelentketés tesztelése | Ligárt Ádám | 2021.05.12 18:30 | Igen | Tökéletesen működik, kiléptet. |
+| Adatbázis elérése | Ligárt Ádám | 2021.05.12 18:41 | Igen | Egyetlen hiba sincs az adatbázis elérése során. |
+| Login oldal tesztelése | Ligárt Ádám | 2021.05.12 18:53 | Igen | Nincs |
 | --- | Ligárt Ádám |  |  |  |
 | --- | Ligárt Ádám |  |  |  |
 | --- | Ligárt Ádám |  |  |  |
