@@ -1,8 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <title>Webshop</title>
+    <meta charset="utf-8">
+</head>
+</html>
 @extends('layouts.app')
 
 @section('content')
-
-    <!-- ========================= SECTION CONTENT ========================= -->
     <section class="section-content padding-y">
 
 
