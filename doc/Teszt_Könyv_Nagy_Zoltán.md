@@ -1,12 +1,12 @@
 <h1 align= "center">💡️ Project test 💡️</h1>
 <hr>
 <h2 align= "center"> Tester: Nagy Zoltán </h2>
-<h3 align= "center"> Date of testing: 2020. 05. 11. </h3>
+<h3 align= "center"> Date of testing: 2021. 05. 12-13. </h3>
 <hr>
 
 | Modul | Név | Idő | Helyesen működik? | Megjegyzés (opcionális) |
 |-------|------|------|--------------------------|-----------|
-| Adatbázis import | Nagy Zoltán |  | |  |
+| Adatbázis import | Nagy Zoltán | 2021.05.12 | Helyesen működik | - |
 | Adatbázis elérés | Nagy Zoltán |  |  | |
 | Főoldal elérése | Nagy Zoltán |  |  |  |
 | Kijelentkezés | Nagy Zoltán |  |  |  |
