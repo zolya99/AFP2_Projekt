@@ -71,16 +71,6 @@
                             </div>
                         </article> <!-- filter-group  .// -->
                         <article class="filter-group">
-                            <header class="card-header">
-                                <a href="#" data-toggle="collapse" data-target="#collapse_3" aria-expanded="false" class="">
-                                    <i class="icon-control orange fa fa-chevron-down"></i>
-                                    <h6 class="title"  style="color:black;">Ital fajták
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
-                                            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
-                                        </svg>
-                                    </h6>
-                                </a>
-                            </header>
                             <div class="filter-content collapse in" id="collapse_3" style="">
                                 <div class="card-body">
                                     <form method="post" class="pb-3" action="{{ route('shop') }}">
