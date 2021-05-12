@@ -11,7 +11,7 @@
 | Login oldal tesztelése | Ligárt Ádám | 2021.05.12 18:53 | Igen | Nincs |
 | Register oldal tesztelése | Ligárt Ádám | 2021.05.12 19:11 | Igen | Beregisztrál, minden adat helyes. |
 | Shop oldal tesztelése | Ligárt Ádám | 2021.05.12 19:30 | Igen | Keresés funkció kikapcsolva. |
-| --- | Ligárt Ádám |  |  |  |
+| Hozzáadás gomb tesztelése a kosárnak | Ligárt Ádám | 2021.05.12 19:55 | Igen | Sikeresen belehelyezi a kiválasztott terméket a kosárba. |
 | --- | Ligárt Ádám |  | Yes |  |
 | --- | Ligárt Ádám |  |  |  |
 | --- | Ligárt Ádám |  |  |  |
