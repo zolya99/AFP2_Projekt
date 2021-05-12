@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="footer" style="position: fixed;left: 0; bottom: 0; width: 100%;background-color: white; color: black;text-align: center;">
-            <p>©Copyright 2021</p>
+            <p>Impact 2.0 ©Copyright 2021</p>
         </div>
     </div>
 @endsection
