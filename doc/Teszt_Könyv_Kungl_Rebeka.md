@@ -23,5 +23,5 @@
 | Elfelejtett jelszó tesztelése| Kungl Rebeka | 2021.05.14. 18:17 | Igen | - |
 | Kosár oldalon eltávolítás tesztelése | Kungl Rebeka | 2021.05.16. 17:23 | Igen | - |
 | Regisztrációs oldal elérése | Kungl Rebeka | 2021.05.16. 17:53 | Igen | - |
-| Regisztráció tesztelése| Kungl Rebeka |  |  |  |
+| Regisztráció tesztelése| Kungl Rebeka | 2021.05.16. 18:16 | Igen | Csak a helyesen megadott adatokat fogadja el, hibátlanul működik  |
 
