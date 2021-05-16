@@ -12,7 +12,7 @@
 | Kijelentkezés | Nagy Zoltán | 2021.05.16 21:15 | Helyesen működik | - |
 | Carousel teszt | Nagy Zoltán | 2021.05.16 21:16 | Rendeltetésszerűen működik  | - |
 | Üzlet oldal elérése | Nagy Zoltán | 2021.05.16 21:20 | Az oldal elérése sikeres | - |
-| Feltöltési oldal elérése | Nagy Zoltán|  | Yes |  |
+| Feltöltési oldal elérése | Nagy Zoltán| 2021.05.16. 21:23  | Az oldal elérése sikeres | - |
 | Feltöltés tesztelése | Nagy Zoltán |  |  |  |
 | "Hozzáadás a kosárhoz" gomb tesztelése | Nagy Zoltán |  |  |  |
 | Bejelentkező oldal elérése | Nagy Zoltán |  |  |  |
