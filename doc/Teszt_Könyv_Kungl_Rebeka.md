@@ -18,7 +18,7 @@
 | Bejelentkező oldal elérése | Kungl Rebeka | 2021.05.13. 18:50 | Igen | - |
 | Bejelentkezés | Kungl Rebeka | 2021.05.13. 19:34 | Igen  | Bejelentkezés megfelelően működik |
 | Kosár oldal elérése | Kungl Rebeka | 2021.05.13. 19:50 | Igen | - |
-| Üzlet oldalon listázás tesztelése | Kungl Rebeka |  |  |  |  |
+| Üzlet oldalon listázás tesztelése | Kungl Rebeka | 2021.05.13. 20:16 | Igen | Képek megfelelő helyen, adatok hibátlanul listázva |
 | Profil oldal elérése | Kungl Rebeka |  |  |   |
 | Elfelejtett jelszó tesztelése| Kungl Rebeka |  |  |  |
 | Kosár oldalon eltávolítás tesztelése | Kungl Rebeka |  |  |  |
