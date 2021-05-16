@@ -1,7 +1,7 @@
-<h1 align= "center">💡️ Project test 💡️</h1>
+<h1 align= "center">💡️ Projekt tesztelés 💡️</h1>
 <hr>
-<h2 align= "center"> Tester: Nagy Zoltán </h2>
-<h3 align= "center"> Date of testing: 2021. 05.12-16. </h3>
+<h2 align= "center"> Teszter: Nagy Zoltán </h2>
+<h3 align= "center"> Tesztelés ideje: 2021. 05.12-16. </h3>
 <hr>
 
 | Modul | Név | Idő | Helyesen működik? | Megjegyzés (opcionális) |
@@ -22,6 +22,6 @@
 | Profil oldal elérése | Nagy Zoltán | 2021.05.16 21:45 | Az oldal elérése sikeres | - |
 | Elfelejtett jelszó tesztelése| Nagy Zoltán | 2021.05.16 21:48 | Nem sikerült | Javítás szükséges |
 | Kosár oldalon eltávolítás tesztelése | Nagy Zoltán | 2021.05.16 21:52 | Eltávolítás működik | - |
-| Regisztrációs oldal elérése | Nagy Zoltán |  |  |  |
+| Regisztrációs oldal elérése | Nagy Zoltán | 2021.05.16 21:54 | Az oldal elérése sikeres | - |
 | Regisztráció tesztelése| Nagy Zoltán |  |  |  |
 
