@@ -1,7 +1,7 @@
 <h1 align= "center">💡️ Project test 💡️</h1>
 <hr>
 <h2 align= "center"> Tester: Kungl Rebeka</h2>
-<h3 align= "center"> Date of testing: 2021. 05. 12-13. </h3>
+<h3 align= "center"> Date of testing: 2021. 05. 12-16. </h3>
 <hr>
 
 | Modul | Név | Idő | Helyesen működik? | Megjegyzés (opcionális) |
