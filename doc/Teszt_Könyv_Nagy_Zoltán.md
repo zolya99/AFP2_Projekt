@@ -17,7 +17,7 @@
 | "Hozzáadás a kosárhoz" gomb tesztelése | Nagy Zoltán | 2021.05.16 21:34 | Gomb helyesen működik | - |
 | Bejelentkező oldal elérése | Nagy Zoltán | 2021.05.16 21:37 | Az oldal elérése sikeres | - |
 | Bejelentkezés | Nagy Zoltán | 2021.05.16 21:38 | Bejelentkezés sikeres | - |
-| Kosár oldal elérése | Nagy Zoltán |  |  |  |
+| Kosár oldal elérése | Nagy Zoltán | 2021.05.16 21:40 | Az oldal elérése sikeres | - |
 | Üzlet oldalon listázás tesztelése | Nagy Zoltán |  |  |  |  |
 | Profil oldal elérése | Nagy Zoltán |  |  |   |
 | Elfelejtett jelszó tesztelése| Nagy Zoltán |  |  |  |
