@@ -14,7 +14,7 @@
 | Üzlet oldal elérése | Nagy Zoltán | 2021.05.16 21:20 | Az oldal elérése sikeres | - |
 | Feltöltési oldal elérése | Nagy Zoltán| 2021.05.16. 21:23  | Az oldal elérése sikeres | - |
 | Feltöltés tesztelése | Nagy Zoltán | 2021.05.16 21:29 | Feltöltés sikeres | - |
-| "Hozzáadás a kosárhoz" gomb tesztelése | Nagy Zoltán |  |  |  |
+| "Hozzáadás a kosárhoz" gomb tesztelése | Nagy Zoltán | 2021.05.16 21:34 | Gomb helyesen működik | - |
 | Bejelentkező oldal elérése | Nagy Zoltán |  |  |  |
 | Bejelentkezés | Nagy Zoltán |  |  |  |
 | Kosár oldal elérése | Nagy Zoltán |  |  |  |
