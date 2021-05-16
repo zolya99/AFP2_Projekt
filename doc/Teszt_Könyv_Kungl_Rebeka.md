@@ -16,7 +16,7 @@
 | Feltöltés tesztelése | Kungl Rebeka | 2021.05.12 19:32 | Igen | Megfelelően feltölti az adatokat, illetve képeket az adatbázisba  |
 | "Hozzáadás a kosárhoz" gomb tesztelése | Kungl Rebeka | 2021.05.12 19:54 | Igen | Megfelelően belehelyezi a kiválasztott terméket a kosárba |
 | Bejelentkező oldal elérése | Kungl Rebeka | 2021.05.13. 18:50 | Igen | - |
-| Bejelentkezés | Kungl Rebeka |  |  |  |
+| Bejelentkezés | Kungl Rebeka | 2021.05.13. 19:34 | Igen  | Bejelentkezés megfelelően működik |
 | Kosár oldal elérése | Kungl Rebeka |  |  |  |
 | Üzlet oldalon listázás tesztelése | Kungl Rebeka |  |  |  |  |
 | Profil oldal elérése | Kungl Rebeka |  |  |   |
