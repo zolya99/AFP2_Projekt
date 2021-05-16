@@ -18,7 +18,7 @@
 | Bejelentkező oldal elérése | Nagy Zoltán | 2021.05.16 21:37 | Az oldal elérése sikeres | - |
 | Bejelentkezés | Nagy Zoltán | 2021.05.16 21:38 | Bejelentkezés sikeres | - |
 | Kosár oldal elérése | Nagy Zoltán | 2021.05.16 21:40 | Az oldal elérése sikeres | - |
-| Üzlet oldalon listázás tesztelése | Nagy Zoltán |  |  |  |  |
+| Üzlet oldalon listázás tesztelése | Nagy Zoltán | 2021.05.16 21:43 | Listázás sikeres | - |
 | Profil oldal elérése | Nagy Zoltán |  |  |   |
 | Elfelejtett jelszó tesztelése| Nagy Zoltán |  |  |  |
 | Kosár oldalon eltávolítás tesztelése | Nagy Zoltán |  |  |  |
