@@ -16,7 +16,7 @@
 | Feltöltés tesztelése | Nagy Zoltán | 2021.05.16 21:29 | Feltöltés sikeres | - |
 | "Hozzáadás a kosárhoz" gomb tesztelése | Nagy Zoltán | 2021.05.16 21:34 | Gomb helyesen működik | - |
 | Bejelentkező oldal elérése | Nagy Zoltán | 2021.05.16 21:37 | Az oldal elérése sikeres | - |
-| Bejelentkezés | Nagy Zoltán |  |  |  |
+| Bejelentkezés | Nagy Zoltán | 2021.05.16 21:38 | Bejelentkezés sikeres | - |
 | Kosár oldal elérése | Nagy Zoltán |  |  |  |
 | Üzlet oldalon listázás tesztelése | Nagy Zoltán |  |  |  |  |
 | Profil oldal elérése | Nagy Zoltán |  |  |   |
