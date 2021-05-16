@@ -1,7 +1,7 @@
 <h1 align= "center">💡️ Project test 💡️</h1>
 <hr>
 <h2 align= "center"> Tester: Nagy Zoltán </h2>
-<h3 align= "center"> Date of testing: 2021. 05. 12-16. </h3>
+<h3 align= "center"> Date of testing: 2021. 05.12-16. </h3>
 <hr>
 
 | Modul | Név | Idő | Helyesen működik? | Megjegyzés (opcionális) |
@@ -10,7 +10,7 @@
 | Adatbázis elérés | Nagy Zoltán | 2021.05.12. 22:22| Helyesen működik | - |
 | Főoldal elérése | Nagy Zoltán | 2021.05.12 22:29 | Sikeres elérés | - |
 | Kijelentkezés | Nagy Zoltán | 2021.05.16 21:15 | Helyesen működik | - |
-| Carousel teszt | Nagy Zoltán |  |  |  |
+| Carousel teszt | Nagy Zoltán | 2021.05.16 21:16 | Rendeltetésszerűen működik  | - |
 | Üzlet oldal elérése | Nagy Zoltán |  |  |  |
 | Feltöltési oldal elérése | Nagy Zoltán|  | Yes |  |
 | Feltöltés tesztelése | Nagy Zoltán |  |  |  |
