@@ -21,7 +21,7 @@
 | Üzlet oldalon listázás tesztelése | Nagy Zoltán | 2021.05.16 21:43 | Listázás sikeres | - |
 | Profil oldal elérése | Nagy Zoltán | 2021.05.16 21:45 | Az oldal elérése sikeres | - |
 | Elfelejtett jelszó tesztelése| Nagy Zoltán | 2021.05.16 21:48 | Nem sikerült | Javítás szükséges |
-| Kosár oldalon eltávolítás tesztelése | Nagy Zoltán |  |  |  |
+| Kosár oldalon eltávolítás tesztelése | Nagy Zoltán | 2021.05.16 21:52 | Eltávolítás működik | - |
 | Regisztrációs oldal elérése | Nagy Zoltán |  |  |  |
 | Regisztráció tesztelése| Nagy Zoltán |  |  |  |
 
