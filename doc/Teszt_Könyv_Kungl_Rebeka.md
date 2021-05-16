@@ -22,6 +22,6 @@
 | Profil oldal elérése | Kungl Rebeka | 2021.05.14. 18:04 | Igen | -  |
 | Elfelejtett jelszó tesztelése| Kungl Rebeka | 2021.05.14. 18:17 | Igen | - |
 | Kosár oldalon eltávolítás tesztelése | Kungl Rebeka | 2021.05.16. 17:23 | Igen | - |
-| Regisztrációs oldal elérése | Kungl Rebeka |  |  |  |
+| Regisztrációs oldal elérése | Kungl Rebeka | 2021.05.16. 17:53 | Igen | - |
 | Regisztráció tesztelése| Kungl Rebeka |  |  |  |
 
