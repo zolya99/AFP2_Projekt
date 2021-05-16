@@ -12,7 +12,7 @@
 | Kijelentkezés | Kungl Rebeka | 2021.05.12 18:09 | Igen | - |
 | Carousel teszt | Kungl Rebeka | 2021.05.12 18:22 | Igen | Képek megfelelő helyen,carousel hibátlanul működik  |
 | Üzlet oldal elérése | Kungl Rebeka | 2021.05.12 18:42 | Igen | - |
-| Feltöltési oldal elérése | Kungl Rebeka|  |  |  |
+| Feltöltési oldal elérése | Kungl Rebeka|  2021.05.12 18:55 | Igen | - |
 | Feltöltés tesztelése | Kungl Rebeka |  |  |  |
 | "Hozzáadás a kosárhoz" gomb tesztelése | Kungl Rebeka |  |  |  |
 | Bejelentkező oldal elérése | Kungl Rebeka |  |  |  |
