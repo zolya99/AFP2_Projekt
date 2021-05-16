@@ -6,7 +6,7 @@
 
 | Modul | Név | Idő | Helyesen működik? | Megjegyzés (opcionális) |
 |-------|------|------|--------------------------|-----------|
-| Adatbázis import | Kungl Rebeka |  |  |  |
+| Adatbázis import | Kungl Rebeka | 2021.05.12. 17:20 | Igen | - |
 | Adatbázis elérés | Kungl Rebeka | |  |  |
 | Főoldal elérése | Kungl Rebeka | | |  |
 | Kijelentkezés | Kungl Rebeka |  |  |  |
