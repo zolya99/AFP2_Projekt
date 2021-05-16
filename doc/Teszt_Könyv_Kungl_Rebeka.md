@@ -8,7 +8,7 @@
 |-------|------|------|--------------------------|-----------|
 | Adatbázis import | Kungl Rebeka | 2021.05.12. 17:20 | Igen | - |
 | Adatbázis elérés | Kungl Rebeka | 2021.05.12 17:38 | Igen | - |
-| Főoldal elérése | Kungl Rebeka | | |  |
+| Főoldal elérése | Kungl Rebeka | 2021.05.12 17:56 | Igen | - |
 | Kijelentkezés | Kungl Rebeka |  |  |  |
 | Carousel teszt | Kungl Rebeka |  |  |  |
 | Üzlet oldal elérése | Kungl Rebeka |  |  |  |
