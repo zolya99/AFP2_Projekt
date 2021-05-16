@@ -20,7 +20,7 @@
 | Kosár oldal elérése | Kungl Rebeka | 2021.05.13. 19:50 | Igen | - |
 | Üzlet oldalon listázás tesztelése | Kungl Rebeka | 2021.05.13. 20:16 | Igen | Képek megfelelő helyen, adatok hibátlanul listázva |
 | Profil oldal elérése | Kungl Rebeka | 2021.05.14. 18:04 | Igen | -  |
-| Elfelejtett jelszó tesztelése| Kungl Rebeka |  |  |  |
+| Elfelejtett jelszó tesztelése| Kungl Rebeka | 2021.05.14. 18:17 | Igen | - |
 | Kosár oldalon eltávolítás tesztelése | Kungl Rebeka |  |  |  |
 | Regisztrációs oldal elérése | Kungl Rebeka |  |  |  |
 | Regisztráció tesztelése| Kungl Rebeka |  |  |  |
