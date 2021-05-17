@@ -8,7 +8,7 @@
 |-------|------|------|--------------------------|-----------|
 | Adatbázis import | Nyeste Réka | 2021.05.18. 1:53 | Megfelelően működik. | - |
 | Adatbázis elérés | Nyeste Réka | 2021.05.18. 1:55 | Sikeres elérés | - |
-| Főoldal elérése | Nyeste Réka |  |  |  |
+| Főoldal elérése | Nyeste Réka | 2021.05.18 1:56 | Sikeres betöltés | - |
 | Kijelentkezés | Nyeste Réka |  |  |  |
 | Carousel teszt | Nyeste Réka |  |  |  |
 | Üzlet oldal elérése | Nyeste Réka |  |  |  |
