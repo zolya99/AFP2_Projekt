@@ -1,7 +1,7 @@
 <h1 align= "center">💡️ Projekt teszt 💡️</h1>
 <hr>
 <h2 align= "center"> Tesztelő: Nyeste Réka </h2>
-<h3 align= "center"> Tesztelés dátuma: 2020. 05. 13. </h3>
+<h3 align= "center"> Tesztelés dátuma: 2020. 05. 18. </h3>
 <hr>
 
 | Modul | Név | Idő | Helyesen működik? | Megjegyzés (opcionális) |
