@@ -6,7 +6,7 @@
 
 | Modul | Név | Idő | Helyesen működik? | Megjegyzés (opcionális) |
 |-------|------|------|--------------------------|-----------|
-| Adatbázis import | Nyeste Réka |  | |  |
+| Adatbázis import | Nyeste Réka | 2021.05.18. 1:53 | Megfelelően működik. | - |
 | Adatbázis elérés | Nyeste Réka |  |  | |
 | Főoldal elérése | Nyeste Réka |  |  |  |
 | Kijelentkezés | Nyeste Réka |  |  |  |
