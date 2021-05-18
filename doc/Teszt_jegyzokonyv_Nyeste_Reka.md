@@ -16,7 +16,7 @@
 | Feltöltés tesztelése | Nyeste Réka |  |  |  |
 | "Hozzáadás a kosárhoz" gomb tesztelése | Nyeste Réka |  |  |  |
 | Bejelentkező oldal elérése | Nyeste Réka | 2021.05.18. 1:58 | Sikeresen betölt | - |
-| Bejelentkezés | Nyeste Réka |  |  |  |
+| Bejelentkezés | Nyeste Réka | 2021.05.18. 1:59 | Sikeres bejelentkezés | - |
 | Kosár oldal elérése | Nyeste Réka |  |  |  |
 | Üzlet oldalon listázás tesztelése | Nyeste Réka |  |  |  |  |
 | Profil oldal elérése | Nyeste Réka |  |  |   |
