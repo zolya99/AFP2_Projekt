@@ -22,5 +22,5 @@
 | Profil oldal elérése | Nyeste Réka | 2021.05.18. 2:01 | Működése megfelelő | - |
 | Elfelejtett jelszó tesztelése| Nyeste Réka | 2021.05.18. 2:15 | Sikertelen | A funkciót javítani kell |
 | Kosár oldalon eltávolítás tesztelése | Nyeste Réka | 2021.05.18. 2:11 | Az eltávolítás sikeres | - |
-| Regisztrációs oldal elérése | Nyeste Réka |  |  |  |
+| Regisztrációs oldal elérése | Nyeste Réka | 2021.05.18. 2:16 | Sikeres betöltés | - |
 | Regisztráció tesztelése| Nyeste Réka |  |  |  |
