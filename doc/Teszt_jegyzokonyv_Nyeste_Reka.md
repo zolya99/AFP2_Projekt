@@ -20,7 +20,7 @@
 | Kosár oldal elérése | Nyeste Réka | 2021.05.18. 2:08 | Betöltés sikeres | - |
 | Üzlet oldalon listázás tesztelése | Nyeste Réka | 2021.05.18. 2:12 | Sikeresen listáz | - |  |
 | Profil oldal elérése | Nyeste Réka | 2021.05.18. 2:01 | Működése megfelelő | - |
-| Elfelejtett jelszó tesztelése| Nyeste Réka |  |  |  |
+| Elfelejtett jelszó tesztelése| Nyeste Réka | 2021.05.18. 2:15 | Sikertelen | A funkciót javítani kell |
 | Kosár oldalon eltávolítás tesztelése | Nyeste Réka | 2021.05.18. 2:11 | Az eltávolítás sikeres | - |
 | Regisztrációs oldal elérése | Nyeste Réka |  |  |  |
 | Regisztráció tesztelése| Nyeste Réka |  |  |  |
