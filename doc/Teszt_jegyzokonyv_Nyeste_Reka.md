@@ -12,7 +12,7 @@
 | Kijelentkezés | Nyeste Réka |  |  |  |
 | Carousel teszt | Nyeste Réka | 2021.05.18. 2:02 | Működése hibátlan | - |
 | Üzlet oldal elérése | Nyeste Réka | 2021.05.18. 2:04 | Sikeres elérés | - |
-| Feltöltési oldal elérése | Nyeste Réka|  |  |  |
+| Feltöltési oldal elérése | Nyeste Réka | 2021.05.18. 2:06 | Megfelelően betölt | - |
 | Feltöltés tesztelése | Nyeste Réka |  |  |  |
 | "Hozzáadás a kosárhoz" gomb tesztelése | Nyeste Réka |  |  |  |
 | Bejelentkező oldal elérése | Nyeste Réka | 2021.05.18. 1:58 | Sikeresen betölt | - |
